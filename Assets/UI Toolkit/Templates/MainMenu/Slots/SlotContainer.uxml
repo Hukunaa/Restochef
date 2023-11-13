@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/slot-container.uss?fileID=7433441132597879392&amp;guid=5065bbd3166cf4b4caa68edf3633d14e&amp;type=3#slot-container" />
+    <ui:VisualElement name="SlotContainer" class="slots-wrapper">
+        <ui:VisualElement name="MandatorySlotsContainer" class="slot-container" />
+        <ui:VisualElement name="OptionalSlotsContainer" class="slot-container" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3214814084201128380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3214814084201128382}
+  - component: {fileID: 3214814084201128381}
+  - component: {fileID: 3764906748599170690}
+  m_Layer: 0
+  m_Name: KitchenLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3214814084201128382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214814084201128380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3214814084201128381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214814084201128380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81b4838b64347e6448ad262860828121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _navBaker: {fileID: 0}
+  _prefabs:
+  - {fileID: 2212453252128359400, guid: f1a71152ec4587d479efa021ab4d4090, type: 3}
+  - {fileID: 5730150026541564540, guid: 2e31abf9a0e02094d8b1e98c015d7784, type: 3}
+  - {fileID: 1600728732136875186, guid: c7bc4202dbeb2dd4493d8e1a91dea03b, type: 3}
+  - {fileID: 3258584034996426408, guid: f386e3e9e763010478054af971d35e0a, type: 3}
+  - {fileID: 7399411968141711427, guid: 13df0a92f7a4be14cbefc9b68ef792c7, type: 3}
+  - {fileID: 3277544345703933222, guid: 5249326b676221240a11829b04086e70, type: 3}
+  - {fileID: 4596859315581839610, guid: 2117a8d6dab8196429ff871ff15ca975, type: 3}
+  - {fileID: 958393162300460004, guid: a07167e9821dec14295d7291bd49503a, type: 3}
+  _addressablesPrefabs:
+  - m_AssetGUID: f1a71152ec4587d479efa021ab4d4090
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 2e31abf9a0e02094d8b1e98c015d7784
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: c7bc4202dbeb2dd4493d8e1a91dea03b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: f386e3e9e763010478054af971d35e0a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 13df0a92f7a4be14cbefc9b68ef792c7
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 5249326b676221240a11829b04086e70
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 2117a8d6dab8196429ff871ff15ca975
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: a07167e9821dec14295d7291bd49503a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  _onKitchenLoaded: {fileID: 11400000, guid: cd4a6e1703a2e024db69daaa0e0249a0, type: 2}
+  _logDebugMessage: 0
+--- !u!114 &3764906748599170690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214814084201128380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ec43fd4e7ad44b965ab412bb48d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _walls:
+  - {fileID: 3485479052417214568, guid: fa594eb061a2beb49a31cbd478d0ee1a, type: 3}
+  - {fileID: 3865220250845304600, guid: fcdb5d94738733a44905abc4077f858a, type: 3}
+  - {fileID: 885221271470575433, guid: a6d17be2e4b841c4a8a9797ee1b5670f, type: 3}
+  - {fileID: 1823958531068967586, guid: 740973cf3c2e9fc4599f99f9bc20d696, type: 3}
+  _cornerWall:
+  - {fileID: 9029866053555735786, guid: 5f28ee563429f6f448e05e1b9171f019, type: 3}
+  _opaqueWallMaterial: {fileID: 2100000, guid: eecf8343eee0a414fabbab846430f628, type: 2}
+  _transparentWallMaterial: {fileID: 2100000, guid: e415efd3bade73340ac8d5b3a662ef14,
+    type: 2}
+  _logDebugMessage: 0

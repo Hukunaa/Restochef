@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Scenes
+  m_EditorClassIdentifier: 
+  m_GroupName: Scenes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c1930a6f1d0a9b4429d1cddd5346c1ea
+  m_SerializeEntries:
+  - m_GUID: 055bf42a589fcc142902b0f70afdec52
+    m_Address: Assets/Scenes/GameplayScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 853745514706aa44e8f4f9fa05219adb
+    m_Address: Assets/Scenes/KitchenEditScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b20f07b53ec9f7b4fbdc75d81b66eb67
+    m_Address: Assets/Scenes/MainMenu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 693967dc56271054bb4f3a69f2b53a3e
+    m_Address: Assets/Scenes/ManagerScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 146f83cb563ec674fadb680aa5ed60a5
+    m_Address: Assets/Scenes/ShiftScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e25f2fe20bfc29741a17639b667d1b5c
+    m_Address: Assets/Scenes/ShiftTutorialScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9580671deacc28f4c8405e8bc1f37a54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1a259c193dfd4dd458885c6cfa8929ed, type: 2}
+    - {fileID: 11400000, guid: 1dde2a1864e3a8146a2d74742a2325a4, type: 2}

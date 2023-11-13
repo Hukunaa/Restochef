@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa11ec82e9746928e211e7f096812ca, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  gameAnalyticsIosGameKey: 3cc9a84b4f62586e67674f7aa77b4119
+  gameAnalyticsIosSecretKey: e89fb1d580e89f8fa1e2d318c9a968c3746f65c5
+  gameAnalyticsAndroidGameKey: cf7b999fd4bcc1a3c2536ddea756124c
+  gameAnalyticsAndroidSecretKey: 7db84d6f3b9b1e89ce0f4efeb564ee9857ce8554
+  facebookAppId: 1661678110915019
+  facebookClientToken: 68ce46a851e7d022a2649f524c734983
+  adjustIOSToken: qqufc0l8j1fk
+  adjustAndroidToken: vbw5okvrpfy8
+  EditorIdfa: f0f54a12-30f7-4aa4-97c2-161b7a51c8ae
+  UseRemoteConfig: 0
+  UseVoodooAnalytics: 1
+  companyName: Ripe Groove Labs
+  privacyPolicyURL: https://www.ripegroovelabs.io/privacy-policy
+  developerContactEmail: social@ripegroovelabs.io

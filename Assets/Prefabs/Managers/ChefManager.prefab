@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9006291665740048271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9006291665740048270}
+  - component: {fileID: 9006291665740048257}
+  - component: {fileID: 2671249785688006642}
+  m_Layer: 0
+  m_Name: ChefManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &9006291665740048270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006291665740048271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9006291665740048257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006291665740048271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3883250f974db0af098470d6c3f7ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onCameraFollowTargetChanged: {fileID: 11400000, guid: 7165a35f013b7244891d93e6202c5255,
+    type: 2}
+  _onChefSpawned: {fileID: 11400000, guid: 3a5c678a8b7505a48b55405f54b22be9, type: 2}
+  _onSelectChef: {fileID: 11400000, guid: 57b9b9c20aaa557428cd9cebb5f646da, type: 2}
+  _onDeselectChef: {fileID: 11400000, guid: 8be2c497c665ec44282caf9fa374e662, type: 2}
+  _onChefManagerInitialized: {fileID: 11400000, guid: 35cff7b8506a7aa4e940c922efc45f6b,
+    type: 2}
+  _onChefSelected: {fileID: 11400000, guid: 0f68278ef0761d9428d2e13dd4d6e9ba, type: 2}
+  _onChefDeselected: {fileID: 11400000, guid: 480f3a790f5a9c643a988432a2b0f729, type: 2}
+--- !u!114 &2671249785688006642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006291665740048271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36a76086e2340c98c1fa46a1fef57c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chefAssetRef:
+    m_AssetGUID: f056d82d3f48cdc4e91c9d32a793aea6
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  _gridManager: {fileID: 0}
+  _onChefSpawned: {fileID: 11400000, guid: 3a5c678a8b7505a48b55405f54b22be9, type: 2}
+  _onKitchenLoaded: {fileID: 11400000, guid: cd4a6e1703a2e024db69daaa0e0249a0, type: 2}

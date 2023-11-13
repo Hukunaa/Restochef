@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="ChefButton" src="project://database/Assets/UI%20Toolkit/Templates/MainMenu/ChefSelectionMenu/ChefButton.uxml?fileID=9197481963319205126&amp;guid=415c16d1b60e4fd4b937787e73e629df&amp;type=3#ChefButton" />
+    <ui:Template name="SlotContainer" src="project://database/Assets/UI%20Toolkit/Templates/MainMenu/Slots/SlotContainer.uxml?fileID=9197481963319205126&amp;guid=de92456ff54203148a7b01c094f7d67e&amp;type=3#SlotContainer" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/general-ui-elements.uss?fileID=7433441132597879392&amp;guid=2fe81150cf9086c409ed231ff0ac486a&amp;type=3#general-ui-elements" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/chefs-selection-menu.uss?fileID=7433441132597879392&amp;guid=6d71950ed2b663a46a113f80c6c516d6&amp;type=3#chefs-selection-menu" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/custom-scroll-view.uss?fileID=7433441132597879392&amp;guid=cffd2a0499bdd9c42b912e830121298a&amp;type=3#custom-scroll-view" />
+    <ui:VisualElement name="Container" class="fullscreen-container" style="width: 100%; height: 100%; justify-content: flex-start; align-items: center; padding-bottom: 55px;">
+        <ui:Label text="Select your Chefs" display-tooltip-when-elided="true" class="selection-label" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" class="custom-scroll-view-container" style="flex-shrink: 1;">
+            <ui:Instance template="ChefButton" name="ChefButton" />
+            <ui:Instance template="ChefButton" name="ChefButton" />
+            <ui:Instance template="ChefButton" name="ChefButton" />
+            <ui:Instance template="ChefButton" name="ChefButton" />
+            <ui:Instance template="ChefButton" name="ChefButton" />
+        </ui:ScrollView>
+        <ui:Instance template="SlotContainer" name="SlotContainer" style="width: 100%; flex-shrink: 0;" />
+        <ui:VisualElement name="NavButtonContainer" style="align-items: center; width: 100%; flex-direction: row; justify-content: space-around;">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="red-button-small" />
+            <ui:Button text="Select Chefs" display-tooltip-when-elided="true" name="SelectChefsButton" class="green-button-small" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

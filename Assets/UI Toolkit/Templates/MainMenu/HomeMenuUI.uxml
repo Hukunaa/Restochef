@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/home-menu.uss?fileID=7433441132597879392&amp;guid=670af02bc04477a4bb18b162befc0105&amp;type=3#home-menu" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/general-ui-elements.uss?fileID=7433441132597879392&amp;guid=2fe81150cf9086c409ed231ff0ac486a&amp;type=3#general-ui-elements" />
+    <ui:VisualElement name="HomeMenu" style="width: 100%; height: 100%; justify-content: flex-end; margin-top: 171px;">
+        <ui:VisualElement name="HomeMenuTabs" style="flex-grow: 1; align-items: center; justify-content: flex-end; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:VisualElement name="MarketTab" class="hidden" style="width: 100%; height: 100%; align-items: center; justify-content: center;">
+                <ui:Label text="Coming Soon" display-tooltip-when-elided="true" name="MarkeTab" style="font-size: 77px; color: rgb(0, 0, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="CookTab" style="width: 100%; height: 100%; align-items: center; justify-content: space-around; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(250, 250, 250);">
+                <ui:VisualElement name="KitchenInfo" style="background-image: none; width: 80%; height: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-background-scale-mode: scale-to-fit; flex-grow: 1; align-items: center; justify-content: center;">
+                    <ui:VisualElement name="KitchenImage" class="kitchen-image" />
+                </ui:VisualElement>
+                <ui:Button text="Play" display-tooltip-when-elided="true" name="CookButton" class="green-button" />
+            </ui:VisualElement>
+            <ui:VisualElement tabindex="1" name="KitchenTab" class="hidden" style="width: 100%; height: 100%; align-items: center; justify-content: center;">
+                <ui:VisualElement name="KitchenInfo" style="background-image: none; width: 80%; height: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-background-scale-mode: scale-to-fit; flex-grow: 1; align-items: center; justify-content: center;">
+                    <ui:VisualElement name="KitchenImage" class="kitchen-image" />
+                </ui:VisualElement>
+                <ui:Button text="Edit Kitchen" display-tooltip-when-elided="true" name="KitchenButton" class="green-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="NavigationButtonsContainer" style="flex-direction: row; justify-content: space-around;">
+            <ui:Button display-tooltip-when-elided="true" name="MarketNavButton" class="navigation-button" style="align-items: center; justify-content: center;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Textures/UI/market_icon.png?fileID=2800000&amp;guid=b705db0aa9b87464fb559e77f2211d4d&amp;type=3#market_icon&apos;); width: 128px; height: 128px;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="CookNavButton" class="navigation-button" style="align-items: center; justify-content: center;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Textures/UI/cooking-icon.png?fileID=2800000&amp;guid=c35b66b1df880b64f80073fd782044fb&amp;type=3#cooking-icon&apos;); width: 128px; height: 128px;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="CustomizeKitchenNavButton" class="navigation-button" style="align-items: center; justify-content: center;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Textures/UI/kitchen-icon.png?fileID=2800000&amp;guid=1fb7f79898f7f834284d376f735920e1&amp;type=3#kitchen-icon&apos;); width: 128px; height: 128px;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

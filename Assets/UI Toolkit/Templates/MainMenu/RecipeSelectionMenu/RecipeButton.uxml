@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/recipe-button.uss?fileID=7433441132597879392&amp;guid=986819d53a838454d98f873e19bb17f2&amp;type=3#recipe-selection-menu" />
+    <ui:Button display-tooltip-when-elided="true" name="RecipeButton" class="recipe-container">
+        <ui:VisualElement name="RecipeInfo" class="recipe-info" style="flex-direction: column-reverse; align-items: flex-end; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 128px; flex-grow: 1;">
+            <ui:VisualElement name="PointsContainer" style="flex-direction: row; align-items: center;">
+                <ui:VisualElement name="StarSprite" style="background-image: url(&apos;project://database/Assets/Textures/UI/star.png?fileID=2800000&amp;guid=a9f7685b2246b8340ab3ff64ef6225fa&amp;type=3#star&apos;); width: 32px; height: 32px; align-items: center; justify-content: center;" />
+                <ui:Label text="50" display-tooltip-when-elided="true" name="PointsAmount" style="justify-content: flex-start; color: rgb(0, 0, 0); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-left; height: auto; font-size: 21px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label text="Steak Frite" display-tooltip-when-elided="true" name="RecipeName" style="-unity-text-align: middle-center; font-size: 17px; color: rgb(12, 12, 12); flex-wrap: wrap; white-space: normal; align-items: auto; width: 128px;" />
+    </ui:Button>
+</ui:UXML>

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3333bb0966064f09921f8706d04afc6a, type: 3}
+  m_Name: r_ratatouille
+  m_EditorClassIdentifier: 
+  _recipeName: Ratatouille
+  _recipeRarity: 0
+  _recipeIcon: {fileID: 21300000, guid: e79321690de4040449f7ad7b7e6adeb0, type: 3}
+  _recipeTimer: 25
+  _recipeIngredients:
+  - _ingredient: {fileID: 11400000, guid: f965c3e57dc9946019dca901f8aa6ecd, type: 2}
+    _quantity: 1
+  - _ingredient: {fileID: 11400000, guid: 3ea0dd7cf04a9495e9acc5c8246154f1, type: 2}
+    _quantity: 1
+  - _ingredient: {fileID: 11400000, guid: 041230f49a9434bee945c24e98646322, type: 2}
+    _quantity: 1
+  _orderApparitionWeight: 5
+  _recipePoints: 130

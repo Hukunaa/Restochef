@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/order-UI-USS.uss?fileID=7433441132597879392&amp;guid=b9027ab542c09b64aa1dde6cb47397f5&amp;type=3#order-UI-USS" />
+    <ui:VisualElement picking-mode="Ignore" style="width: 100%; align-items: center; position: relative; top: -25px; bottom: auto; height: 100%; padding-top: 0;">
+        <ui:Label text="You prepared a perfect caesar salad" display-tooltip-when-elided="true" name="RecipeFeedback" picking-mode="Ignore" class="feedback-text" />
+        <ui:VisualElement name="OrderQueueWrapper" style="align-items: flex-start; width: 100%; margin-left: 0; padding-left: 100px;">
+            <ui:VisualElement name="OrderQueue" class="order-container" style="justify-content: flex-start; width: auto; margin-top: 163px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

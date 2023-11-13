@@ -1,0 +1,592 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7962563b864b43bf9b2fef749b94dcbd, type: 3}
+  m_Name: PlayerDataContainer
+  m_EditorClassIdentifier: 
+  _playerScore:
+    _score: 0
+  _playerCurrencies:
+    _softCurrencyBalance: 0
+    _hardCurrencyBalance: 0
+  _playerRecipes:
+  - {fileID: 11400000, guid: fdac897d550af4b9095017b2ea037f61, type: 2}
+  - {fileID: 11400000, guid: e051ee839e7474d41a8c2e24212697c2, type: 2}
+  - {fileID: 11400000, guid: f9c30c19d71534f92a879aaded8cef2a, type: 2}
+  - {fileID: 11400000, guid: a3a6541e1a65441e9872ae89d40474d6, type: 2}
+  - {fileID: 11400000, guid: ceaccd826295843f9ac7b70248bc7492, type: 2}
+  - {fileID: 11400000, guid: 11d6667606975460193073e720e4f87e, type: 2}
+  - {fileID: 11400000, guid: 4288c1ac67a354b848494adbd3d2ace4, type: 2}
+  - {fileID: 11400000, guid: 51139735f3e864f56ba7315ee0e71b62, type: 2}
+  - {fileID: 11400000, guid: c47dacb4f4ee7478087df7a1f38bfc65, type: 2}
+  - {fileID: 11400000, guid: 8fd2fa4ddbb5f4038ba6061a310cc3d3, type: 2}
+  - {fileID: 11400000, guid: 585d0ded1e89447fb9440d6da152d443, type: 2}
+  - {fileID: 11400000, guid: 0013a21d697d04e43ac827610ffdf857, type: 2}
+  - {fileID: 11400000, guid: 3c91a611356ba432a902d267b0ec3574, type: 2}
+  - {fileID: 11400000, guid: 9e17a1ec662d04d8e979eb927614b0f2, type: 2}
+  - {fileID: 11400000, guid: 0fe4bdfeff0a443ed84c505b907d5518, type: 2}
+  - {fileID: 11400000, guid: e90fdacd18c7c466cb43a71b9518664d, type: 2}
+  - {fileID: 11400000, guid: ae5777b7a2e6342809e8f29ca6096002, type: 2}
+  - {fileID: 11400000, guid: c30e015dcd83a47ab96c4f021222f37a, type: 2}
+  - {fileID: 11400000, guid: db20805098b144cc0a04d373346a2fd9, type: 2}
+  - {fileID: 11400000, guid: 99968a88f7689445eb1e42d5a6cdfc7c, type: 2}
+  _chefsData:
+  - _chefID: 0b77c6de-2692-467c-b4a4-49eb4c112744
+    _chefName: Smudge
+    _chefInfoAddress: chef_01
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 25c61bc3af9e446e483091cb79e6f406, type: 2}
+  - _chefID: ed4e4bcf-c157-4169-b535-1e9834d338f7
+    _chefName: Fliss
+    _chefInfoAddress: chef_10
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: f171f5e249a90470daf68cc7d9c329d1, type: 2}
+  - _chefID: 650cab2b-2c80-4397-a4e7-ef2da56a562c
+    _chefName: Pumpkin
+    _chefInfoAddress: chef_11
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 0c5e14d413bbc498c9ceadac39beef8c, type: 2}
+  - _chefID: 45d3bd05-d160-4981-8956-675b1935668b
+    _chefName: Fuzzy
+    _chefInfoAddress: chef_12
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: e6de0b59baeb849bd98b6733b3a3d149, type: 2}
+  - _chefID: 06db8da4-49d7-4a89-a408-06392af6aab5
+    _chefName: Bubbles
+    _chefInfoAddress: chef_13
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 7fec1fb5128794683a7000b6725c9362, type: 2}
+  - _chefID: 5305c207-b02c-4c91-a98e-c10aaa1ff186
+    _chefName: Spot
+    _chefInfoAddress: chef_14
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: a52893bbc75dd42d3ba4d643bef3e1c2, type: 2}
+  - _chefID: 21f94570-7876-49a2-9109-12e01c700f1d
+    _chefName: Fudge
+    _chefInfoAddress: chef_15
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: a1d5b811b9cb04deaa89bb252c5af657, type: 2}
+  - _chefID: 149a2943-0f76-4c64-86e1-ef770652e447
+    _chefName: Marbles
+    _chefInfoAddress: chef_16
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 50c82ecf2058d44e4b4759bc655bcdb2, type: 2}
+  - _chefID: 59f7969a-07c4-477c-b9cd-1e451f0cc073
+    _chefName: Fluffy
+    _chefInfoAddress: chef_17
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: fc6a62efc97ec4c94993f9a748ea1dc4, type: 2}
+  - _chefID: d6cb72ba-243a-49b7-b8ba-8f37cce63fe1
+    _chefName: Fish
+    _chefInfoAddress: chef_18
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 7709afa00932440c084d583969850285, type: 2}
+  - _chefID: 1ac29645-b369-47d8-bc56-7d69890b99a9
+    _chefName: Tabby
+    _chefInfoAddress: chef_02
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: a34e1413901ea4558ba260ce21e6a35b, type: 2}
+  - _chefID: 04382760-3f8b-45cf-8aa3-cccd1493abf0
+    _chefName: Patches
+    _chefInfoAddress: chef_03
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 7ef034f5bec1749ee961865159b61a4b, type: 2}
+  - _chefID: 608e1d55-c13e-4435-8aef-63fffd3ed2e5
+    _chefName: Lucky
+    _chefInfoAddress: chef_04
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 1bf81137ef337438c9658431f47eda38, type: 2}
+  - _chefID: 2c860ab2-8e78-484a-9241-2b4f71addd90
+    _chefName: Socks
+    _chefInfoAddress: chef_05
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 15fc625000bff4c168638befba0923ca, type: 2}
+  - _chefID: 589aad09-6f84-41ca-889b-c937f16a5c85
+    _chefName: Brownie
+    _chefInfoAddress: chef_06
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 83d1bd2835e3b4841b55037dd3561b2a, type: 2}
+  - _chefID: 3baf5a89-75c4-454b-a71d-19a8b8f066f4
+    _chefName: Oreo
+    _chefInfoAddress: chef_07
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: dc44d813be9f84027ac4c35f22eedb95, type: 2}
+  - _chefID: 091f700f-c36f-49c3-b5c0-eb11b6601375
+    _chefName: Boo
+    _chefInfoAddress: chef_08
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: 6050159e80f9d4540a0442db9a584639, type: 2}
+  - _chefID: b66fd157-8c35-4e3d-b832-72997af3c4cf
+    _chefName: Inky
+    _chefInfoAddress: chef_09
+    _skills:
+    - _type: 0
+      _name: Dexterity
+      _level: 1
+      _levelRange: 0000000005000000
+      _multiplier: 1
+    - _type: 1
+      _name: Detail
+      _level: 3
+      _levelRange: 0000000008000000
+      _multiplier: 1.5
+    - _type: 2
+      _name: Intuition
+      _level: 5
+      _levelRange: 000000000a000000
+      _multiplier: 2
+    _levelData:
+      _level: 6
+      _currentXP: 2568
+      _currentLevelXPGoal: 5450
+      _xpGoalIncreaseMultiplier: 1.5
+    _chefSettings: {fileID: 11400000, guid: a88f237a61ee04b1ba9fcaab90544a81, type: 2}
+  _chefsSetting:
+  - {fileID: 11400000, guid: 25c61bc3af9e446e483091cb79e6f406, type: 2}
+  - {fileID: 11400000, guid: f171f5e249a90470daf68cc7d9c329d1, type: 2}
+  - {fileID: 11400000, guid: 0c5e14d413bbc498c9ceadac39beef8c, type: 2}
+  - {fileID: 11400000, guid: e6de0b59baeb849bd98b6733b3a3d149, type: 2}
+  - {fileID: 11400000, guid: 7fec1fb5128794683a7000b6725c9362, type: 2}
+  - {fileID: 11400000, guid: a52893bbc75dd42d3ba4d643bef3e1c2, type: 2}
+  - {fileID: 11400000, guid: a1d5b811b9cb04deaa89bb252c5af657, type: 2}
+  - {fileID: 11400000, guid: 50c82ecf2058d44e4b4759bc655bcdb2, type: 2}
+  - {fileID: 11400000, guid: fc6a62efc97ec4c94993f9a748ea1dc4, type: 2}
+  - {fileID: 11400000, guid: 7709afa00932440c084d583969850285, type: 2}
+  - {fileID: 11400000, guid: a34e1413901ea4558ba260ce21e6a35b, type: 2}
+  - {fileID: 11400000, guid: 7ef034f5bec1749ee961865159b61a4b, type: 2}
+  - {fileID: 11400000, guid: 1bf81137ef337438c9658431f47eda38, type: 2}
+  - {fileID: 11400000, guid: 15fc625000bff4c168638befba0923ca, type: 2}
+  - {fileID: 11400000, guid: 83d1bd2835e3b4841b55037dd3561b2a, type: 2}
+  - {fileID: 11400000, guid: dc44d813be9f84027ac4c35f22eedb95, type: 2}
+  - {fileID: 11400000, guid: 6050159e80f9d4540a0442db9a584639, type: 2}
+  - {fileID: 11400000, guid: a88f237a61ee04b1ba9fcaab90544a81, type: 2}
+  _selectedkitchenData:
+    kitchenLayoutName: KitchenLayout_1
+    kitchenSizeX: 8
+    kitchenSizeY: 10
+    minRecipeSlots: 2
+    maxRecipeSlots: 5
+    minChefSlots: 1
+    maxChefSlots: 2
+    stationSlots: 5
+    kitchenXP: 0
+    kitchenLevel: 1
+    brigade:
+    - 48200399-1c52-4d7f-804c-4aff40ed60a6
+    - 78d8cca0-6dd0-4096-9a2c-89b0b246752c
+    - 0b77c6de-2692-467c-b4a4-49eb4c112744
+    - 650cab2b-2c80-4397-a4e7-ef2da56a562c
+    menu:
+    - r_beefSoup
+    - r_beefFondue
+    - r_cassoulet
+    - r_coqAuVin
+    - r_duckConfit
+    _brigadeChefs:
+    - _chefID: 0b77c6de-2692-467c-b4a4-49eb4c112744
+      _chefName: Smudge
+      _chefInfoAddress: chef_01
+      _skills:
+      - _type: 0
+        _name: Dexterity
+        _level: 1
+        _levelRange: 0000000005000000
+        _multiplier: 1
+      - _type: 1
+        _name: Detail
+        _level: 3
+        _levelRange: 0000000008000000
+        _multiplier: 1.5
+      - _type: 2
+        _name: Intuition
+        _level: 5
+        _levelRange: 000000000a000000
+        _multiplier: 2
+      _levelData:
+        _level: 6
+        _currentXP: 2568
+        _currentLevelXPGoal: 5450
+        _xpGoalIncreaseMultiplier: 1.5
+      _chefSettings: {fileID: 11400000, guid: 25c61bc3af9e446e483091cb79e6f406, type: 2}
+    - _chefID: 650cab2b-2c80-4397-a4e7-ef2da56a562c
+      _chefName: Pumpkin
+      _chefInfoAddress: chef_11
+      _skills:
+      - _type: 0
+        _name: Dexterity
+        _level: 1
+        _levelRange: 0000000005000000
+        _multiplier: 1
+      - _type: 1
+        _name: Detail
+        _level: 3
+        _levelRange: 0000000008000000
+        _multiplier: 1.5
+      - _type: 2
+        _name: Intuition
+        _level: 5
+        _levelRange: 000000000a000000
+        _multiplier: 2
+      _levelData:
+        _level: 6
+        _currentXP: 2568
+        _currentLevelXPGoal: 5450
+        _xpGoalIncreaseMultiplier: 1.5
+      _chefSettings: {fileID: 11400000, guid: 0c5e14d413bbc498c9ceadac39beef8c, type: 2}
+    _menuRecipes:
+    - {fileID: 11400000, guid: e051ee839e7474d41a8c2e24212697c2, type: 2}
+    - {fileID: 11400000, guid: fdac897d550af4b9095017b2ea037f61, type: 2}
+    - {fileID: 11400000, guid: a3a6541e1a65441e9872ae89d40474d6, type: 2}
+    - {fileID: 11400000, guid: 4288c1ac67a354b848494adbd3d2ace4, type: 2}
+    - {fileID: 11400000, guid: c47dacb4f4ee7478087df7a1f38bfc65, type: 2}
+  _onKitchenDataReady: {fileID: 11400000, guid: 55a45291eccf1ed469427496dcec2bd3,
+    type: 2}
+  _logDebugMessage: 0

@@ -1,0 +1,35 @@
+{
+    "ChefRarityTable":
+    [
+        {
+            "_rarity": 0,
+            "_maxLevel": 12,
+            "_startingPoints": 5
+        },
+        {
+            "_rarity": 1,
+            "_maxLevel": 15,
+            "_startingPoints": 8
+        },
+        {
+            "_rarity": 2,
+            "_maxLevel": 18,
+            "_startingPoints": 13
+        },
+        {
+            "_rarity": 3,
+            "_maxLevel": 21,
+            "_startingPoints": 20
+        },
+        {
+            "_rarity": 4,
+            "_maxLevel": 24,
+            "_startingPoints": 30
+        },
+        {
+            "_rarity": 5,
+            "_maxLevel": 30,
+            "_startingPoints": 30
+        }
+    ]
+}

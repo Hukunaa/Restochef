@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIRewards
+  m_EditorClassIdentifier: 
+  m_GroupName: UIRewards
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8c6b221b48c120d4591a334e07758372
+  m_SerializeEntries:
+  - m_GUID: ef3971d742fbb4f67ac53e1f18106e42
+    m_Address: StarPath01_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 68681480b6dfb2944a66d2715c130520
+    m_Address: StarPath01_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 18d5c7660656d4ec493a077b030a1bd6
+    m_Address: StarPath02_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5198d71c28d7d4b90b392d9a44b62a94
+    m_Address: StarPath01_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1fed6673fac145c2b7856fdd408b972
+    m_Address: StarPath02_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 274e91f08eb7a4dad8b5a83763fc0a35
+    m_Address: StarPath01_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34c48ffc29fc447f8a15ea53cc932f77
+    m_Address: StarPath02_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36738f23073db4ed5b5e2ee574373991
+    m_Address: StarPath01_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6652b06c5bec14955a92ded6235dd72f
+    m_Address: StarPath01_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: adb704d8eb846444ea0a03768b03a4b7
+    m_Address: StarPath02_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1b57acc74ed742c8bcd89c620b55bb3
+    m_Address: StarPath02_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 084d0bfed15b1441cb02deb8558d5f53
+    m_Address: StarPath02_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d20be8aea4d6558469135f31bff0c38a
+    m_Address: StarPath03_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f866daebf9b8f4a1d95099774937990a
+    m_Address: StarPath03_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1797cd64824ab495d8091735fb48f9d8
+    m_Address: StarPath03_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 013b6f8b4542d492d83aa1c46e7ef530
+    m_Address: StarPath03_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6edf9405a9da4fdf9b29033f18adaff
+    m_Address: StarPath03_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 700ca05f6bc0e468c93ea80793159e37
+    m_Address: StarPath03_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87ea2dd48865bfa4581af03c8288fc7b
+    m_Address: StarPath04_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f192b3edae5f84513a083bffe68a0c72
+    m_Address: StarPath04_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 13aff0ff8485548f489de771873562b3
+    m_Address: StarPath04_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 181cfc7f51744437a9c4153466d3dfdb
+    m_Address: StarPath04_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 673ceb7b653e041b591431947e5d343b
+    m_Address: StarPath04_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7c4abd421578480f9c3a51bb796f50d
+    m_Address: StarPath04_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 341e867e97c9e9b47982b576b8d4a9ae
+    m_Address: StarPath05_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 03bd4c1c95f934285ad1650557ac6cd4
+    m_Address: StarPath05_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce628622a066241118a3347e88ad9529
+    m_Address: StarPath05_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 353afd553489a49d9886c69a2b8d5569
+    m_Address: StarPath05_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26f50d4bb186a453caa02eb094d68b4d
+    m_Address: StarPath05_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e648b0dc92b8a4ecd979ee968170ddc9
+    m_Address: StarPath05_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d681d927bf64514cae82c17a8fa67ff
+    m_Address: StarPath06_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 24bac0aa522a1490baade9947ac71237
+    m_Address: StarPath06_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 73acee39c44fc4b638eb64d59cabd7b9
+    m_Address: StarPath06_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c2d7713c72d040279d22a3fda1347d4
+    m_Address: StarPath06_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62f95c58da7e34f2bb95f04842169304
+    m_Address: StarPath06_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ba63ff6cacec24fe998f8bbc4cf92e79
+    m_Address: StarPath06_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f5ff48515657e6647b2fbe27f0f4cb29
+    m_Address: StarPath07_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0cca57bb099fd4b7fa28bda57b8f62ad
+    m_Address: StarPath07_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffa815c72cc1646579700d3b68cfbb08
+    m_Address: StarPath07_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcf2e43b31ad04e5ab1078cddf7d11a3
+    m_Address: StarPath07_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed8805905dbbb43c8a17e0625e1e9fdb
+    m_Address: StarPath07_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01bd067ceea254d828c6a599dcf56e60
+    m_Address: StarPath07_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eade2be49b851c646b8b8f68f8d791c8
+    m_Address: StarPath08_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69b4ee69e61fd4d2c87b037860b71c23
+    m_Address: StarPath08_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1394dcb798c05458f8162f1f8250f32b
+    m_Address: StarPath08_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1279566453e5e470f987df27fae18473
+    m_Address: StarPath08_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d07556981a124cad8d0828511df250c
+    m_Address: StarPath08_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6c5a312b5bc134612a2c5085248d51bc
+    m_Address: StarPath08_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d78753a36196968488446410966695ef
+    m_Address: StarPath09_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3b01f1dcebec48bb814aa9becd7107f
+    m_Address: StarPath09_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe2fb85017ab4462a9f15467a637a226
+    m_Address: StarPath09_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc0236ceea4ea480da0dddf5726c8dc1
+    m_Address: StarPath09_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2fc7f2b9f6faf4f3fba919f37c28e646
+    m_Address: StarPath09_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 258580b50593a486297fe9ede36481b2
+    m_Address: StarPath09_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a09310485b367dd438e2387d7f0bf70d
+    m_Address: StarPath10_00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9580671deacc28f4c8405e8bc1f37a54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: afc5d3a9800cf7746a71917d0cd2566d, type: 2}
+    - {fileID: 11400000, guid: 2af5f832831b2cd45a565567b8784774, type: 2}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96be9a37f269134bb2cc12832ea3440, type: 3}
+  m_Name: m2_bread
+  m_EditorClassIdentifier: 
+  _input: {fileID: 11400000, guid: 58c07171df2db48948bc9746c68909a2, type: 2}
+  _output: {fileID: 11400000, guid: 65db7956006c349b5af4871f0bf26c80, type: 2}
+  _processingDuration: 6
+  _stationAction: {fileID: 11400000, guid: bfabd607af99a496bbebfdcc98da6315, type: 2}

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3c79c1d970a877f4899b58127977d785
+  m_SerializeEntries:
+  - m_GUID: 0f332afb1df9114459ab6ad000b42d75
+    m_Address: Assets/Prefabs/UI/ChefUI/ProcessedItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1443f636d1bdb0b4dad489b9d458a031
+    m_Address: Assets/Prefabs/UI/ChefUI/ChefCardWrapper.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 106b006f73b9b5e40a3c11875fe34a4e
+    m_Address: Assets/Prefabs/UI/ChefUI/IngredientSelectionButton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f056d82d3f48cdc4e91c9d32a793aea6
+    m_Address: Assets/Prefabs/Gameplay/Chef.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1fe9c758eba9d154eb03a45faee21faa
+    m_Address: Assets/Prefabs/Gameplay/Ingredient3D.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b44ac3f33dd68504da043b2eddca02aa
+    m_Address: Assets/Prefabs/UI/ChefUI/StationActionButton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 23ec4f2e2ff923745b76cfcf5719377f
+    m_Address: Assets/Prefabs/UI/OrderUI/OrderIngredient.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bb94f93b2f79d824e9e8794c4f985701
+    m_Address: Assets/Prefabs/UI/OrderUI/Order.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 24e12ecf25639e549b473aa4b46109c8
+    m_Address: Assets/Prefabs/UI/OrderUI/IngredientAssignedParticleEffect.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 81345f170e51941418295e131856f3fb
+    m_Address: Assets/Prefabs/UI/ShiftSceneUI/IngredientProcessInfoUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f386e3e9e763010478054af971d35e0a
+    m_Address: Assets/Prefabs/Gameplay/Station/BoilingStation.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7bc4202dbeb2dd4493d8e1a91dea03b
+    m_Address: Assets/Prefabs/Gameplay/Station/CuttingStation.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a07167e9821dec14295d7291bd49503a
+    m_Address: Assets/Prefabs/Gameplay/Station/LockedSlot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2e31abf9a0e02094d8b1e98c015d7784
+    m_Address: Assets/Prefabs/Gameplay/Station/OvenStation.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1a71152ec4587d479efa021ab4d4090
+    m_Address: Assets/Prefabs/Gameplay/Station/Table.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2117a8d6dab8196429ff871ff15ca975
+    m_Address: Assets/Prefabs/Gameplay/Storage/Cupboard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 13df0a92f7a4be14cbefc9b68ef792c7
+    m_Address: Assets/Prefabs/Gameplay/Storage/Fridge.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5249326b676221240a11829b04086e70
+    m_Address: Assets/Prefabs/Gameplay/Storage/VegetableStorage.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d73c2041ea28e84b81a6e54b5915a12
+    m_Address: Assets/Prefabs/UI/ShiftSceneUI/Popup/ChefXPItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9580671deacc28f4c8405e8bc1f37a54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7ceb0e53dbf3a964a940b4858f429224, type: 2}
+    - {fileID: 11400000, guid: e3ecc196a7036e44f8c960b7f6b30deb, type: 2}

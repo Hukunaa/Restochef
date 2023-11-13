@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7728ba01fda446694a91a65b9d1f2ea, type: 3}
+  m_Name: chef_18
+  m_EditorClassIdentifier: 
+  _chefHeadPortrait: {fileID: 21300000, guid: f211d92374f134b7a9eed7890810d0a3, type: 3}
+  _chefBodyPortrait: {fileID: 21300000, guid: 05b42774095b940eeb880d42e59de1b5, type: 3}
+  _chefName: Fish
+  _customizationSettings:
+    _mesh:
+      m_AssetGUID: 8b5776b489149bf4898a2d9f65f4c285
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _bodyMaterial:
+      m_AssetGUID: 87d6f75e3e833f14ca3113127844ae4b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _headMaterial:
+      m_AssetGUID: e2459cb75df9164458f8d3ff46fda30d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _earColor: {r: 0.9607843, g: 0.827451, b: 0.32941177, a: 1}
+    _robePrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+    _robeSecondaryColor: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
+    _eyeBallColor: {r: 1, g: 1, b: 1, a: 1}
+    _noseColor: {r: 1, g: 0.8156863, b: 0.8666667, a: 1}
+    _eyeBrowColor: {r: 0.4433962, g: 0.364208, b: 0.31581524, a: 1}
+    _irisColor: {r: 0.9339623, g: 0.6716381, b: 0.3216002, a: 1}

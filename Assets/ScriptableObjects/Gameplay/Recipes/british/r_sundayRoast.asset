@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3333bb0966064f09921f8706d04afc6a, type: 3}
+  m_Name: r_sundayRoast
+  m_EditorClassIdentifier: 
+  _recipeName: Sunday Roast
+  _recipeIcon: {fileID: 0}
+  _recipeTimer: 25
+  _recipeIngredients:
+  - _ingredient: {fileID: 11400000, guid: e8fccc2f53f30424cb80ec2317e475ec, type: 2}
+    _quantity: 1
+  - _ingredient: {fileID: 11400000, guid: be968c00ae65642c78ba609d61938ac0, type: 2}
+    _quantity: 1
+  - _ingredient: {fileID: 11400000, guid: dc8a0d92180f84671a36dfb09f122ed3, type: 2}
+    _quantity: 1
+  _orderApparitionWeight: 5
+  _recipePoints: 11

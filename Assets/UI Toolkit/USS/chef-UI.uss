@@ -1,0 +1,249 @@
+.chef-portrait {
+    background-image: url('project://database/Assets/Textures/UI/chef-portrait_01.png?fileID=2800000&guid=120b1751c88f0ec488d632523d6ecc46&type=3#chef-portrait_01');
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-left-color: rgb(46, 46, 46);
+    border-right-color: rgb(46, 46, 46);
+    border-top-color: rgb(46, 46, 46);
+    border-bottom-color: rgb(46, 46, 46);
+    align-items: center;
+    height: 285px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.portrait-container {
+    width: 100%;
+    bottom: auto;
+    position: relative;
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: flex-end;
+    margin-bottom: 64px;
+}
+
+.ingredient-button {
+    background-image: url('project://database/Assets/Textures/IngredientSprites/i_tomato_icon.png?fileID=2800000&guid=a4c36cc4c10b64933b8903d4c3fbf691&type=3#i_tomato_icon');
+    width: 128px;
+    height: 128px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    -unity-text-align: lower-center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    background-color: rgba(202, 195, 195, 0.5);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.station-button {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    -unity-text-align: lower-center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: flex;
+}
+
+.chef-action-selection-tab {
+    position: absolute;
+    bottom: 32px;
+    align-items: center;
+    width: 100%;
+}
+
+.station-container {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 74px;
+}
+
+.ingredient-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.station-action-icon {
+    background-image: url('project://database/Assets/Textures/StationActionIcons/knife.png?fileID=2800000&guid=1a7b7646212847142939a3a5be24c103&type=3#knife');
+    width: 128px;
+    height: 128px;
+}
+
+.transformation-arrow {
+    background-image: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=3316425174430470091&guid=cbf88498736a9e94d8e77ae8e234deca&type=3#arrow-up@2x');
+    width: 128px;
+    height: 128px;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.ingredient-output-icon {
+    background-image: url('project://database/Assets/Textures/IngredientSprites/sliced-tomato.png?fileID=2800000&guid=3eaae616ce178914480efe9ffc301ff7&type=3#sliced-tomato');
+    width: 128px;
+    height: 128px;
+}
+
+.close-button {
+    width: 40%;
+    height: 81px;
+    font-size: 51px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.instruction-container {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.current-instruction-button {
+    background-image: url('project://database/Assets/Textures/IngredientSprites/sliced-tomato.png?fileID=2800000&guid=3eaae616ce178914480efe9ffc301ff7&type=3#sliced-tomato');
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(67, 233, 91);
+    border-right-color: rgb(67, 233, 91);
+    border-top-color: rgb(67, 233, 91);
+    border-bottom-color: rgb(67, 233, 91);
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    scale: 1 1;
+}
+
+.queued-instruction-button {
+    background-image: url('project://database/Assets/Textures/IngredientSprites/sliced-lettuce.png?fileID=2800000&guid=24546d68df2e1364495d8be5f2c24452&type=3#sliced-lettuce');
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(46, 46, 46);
+    border-right-color: rgb(46, 46, 46);
+    border-top-color: rgb(46, 46, 46);
+    border-bottom-color: rgb(46, 46, 46);
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    scale: 1 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.chef-pannel-container {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: column-reverse;
+}
+
+.chef-panel {
+    justify-content: flex-end;
+}
+
+.selected {
+    background-image: url('project://database/Assets/Textures/UI/chef-portrait_01.png?fileID=2800000&guid=120b1751c88f0ec488d632523d6ecc46&type=3#chef-portrait_01');
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-left-color: rgb(255, 156, 45);
+    border-right-color: rgb(255, 156, 45);
+    border-top-color: rgb(255, 156, 45);
+    border-bottom-color: rgb(255, 156, 45);
+    align-items: center;
+    height: 285px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}

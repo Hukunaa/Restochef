@@ -1,0 +1,45 @@
+{
+    "ChefLevelTable":
+    [
+        {
+            "_level": 1,
+            "_xpRequired": 0
+        },
+        {
+            "_level": 2,
+            "_xpRequired": 1000
+        },
+        {
+            "_level": 3,
+            "_xpRequired": 2500
+        },
+        {
+            "_level": 4,
+            "_xpRequired": 5000
+        },
+        {
+            "_level": 5,
+            "_xpRequired": 7500
+        },
+        {
+            "_level": 6,
+            "_xpRequired": 10000
+        },
+        {
+            "_level": 7,
+            "_xpRequired": 15000
+        },
+        {
+            "_level": 8,
+            "_xpRequired": 25000
+        },
+        {
+            "_level": 9,
+            "_xpRequired": 50000
+        },
+        {
+            "_level": 10,
+            "_xpRequired": 100000
+        }
+    ]
+}

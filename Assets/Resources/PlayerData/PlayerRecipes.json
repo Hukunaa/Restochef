@@ -1,0 +1,11 @@
+{
+    "recipes": [
+        "r_steakFrites",
+        "r_omelette",
+        "r_beefSoup",
+        "r_croqueMonsieur",
+        "r_beefFondue",
+        "r_duckSalad",
+        "r_fishSoup"
+    ]
+}

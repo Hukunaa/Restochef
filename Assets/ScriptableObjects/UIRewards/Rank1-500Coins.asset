@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61d08e72ca6864489d82452be621f55, type: 3}
+  m_Name: Rank1-500Coins
+  m_EditorClassIdentifier: 
+  _rewardType: 0
+  _title: 500 Coins
+  _description: Here is a little gift!
+  _rewardSprite: {fileID: 21300000, guid: 54300caaea3c3104ca4d8885c3f003c1, type: 3}
+  _coinsReward: 500
+  _starsRequired: 500
+  _rankReward:
+    MaxStations: 0
+    MaxStationsLVL: 0
+    MaxChefs: 0
+    MenuSize: 0
+    BonusPoints: 0

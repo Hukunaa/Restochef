@@ -1,0 +1,22 @@
+.timer-text {
+    font-size: 70px;
+    -unity-text-align: upper-center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgba(7, 7, 7, 255);
+}
+
+.shift-end-text {
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-center;
+    height: 100%;
+    font-size: 100px;
+    color: rgb(255, 250, 0);
+}
+
+.hidden {
+    display: none;
+}

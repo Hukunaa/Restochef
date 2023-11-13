@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/recipe-ingredient.uss?fileID=7433441132597879392&amp;guid=3fbd5cae1e350144187f75ee41955803&amp;type=3#recipe-ingredient" />
+    <ui:VisualElement name="recipe-ingredient" class="ingredient-container">
+        <ui:VisualElement name="ingredient-sprite" class="ingredient-sprite" style="background-image: url(&apos;project://database/Assets/Textures/IngredientSprites/beef.png?fileID=2800000&amp;guid=d4b4eed0bf44fbf4888d588f0c258b40&amp;type=3#beef&apos;);" />
+        <ui:VisualElement name="ingredient-state" class="ingredient-sprite" style="background-image: url(&apos;project://database/Assets/Textures/IngredientStatesSprite/frypan.png?fileID=2800000&amp;guid=78d6426ce8896964c9c35f97ee32254b&amp;type=3#frypan&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,54 @@
+.hidden {
+    display: none;
+}
+
+.navigation-button {
+    position: relative;
+    bottom: auto;
+    font-size: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(46, 46, 46);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(34, 34, 34);
+    border-right-color: rgb(34, 34, 34);
+    border-top-color: rgb(34, 34, 34);
+    border-bottom-color: rgb(34, 34, 34);
+}
+
+.navigation-button-active {
+    background-color: rgb(70, 70, 70);
+}
+
+.kitchen-image {
+    background-image: url('project://database/Assets/Textures/UI/KitchenViews/kitchen-overview.png?fileID=2800000&guid=ccd19bdf00821bf4e98da59c16d1fddc&type=3#kitchen-overview');
+    width: 512px;
+    height: 512px;
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-width: 16px;
+    border-right-width: 16px;
+    border-top-width: 16px;
+    border-bottom-width: 16px;
+    border-top-left-radius: 65px;
+    border-bottom-left-radius: 65px;
+    border-top-right-radius: 65px;
+    border-bottom-right-radius: 65px;
+    border-left-color: rgb(195, 141, 36);
+    border-right-color: rgb(195, 141, 36);
+    border-top-color: rgb(195, 141, 36);
+    border-bottom-color: rgb(195, 141, 36);
+}

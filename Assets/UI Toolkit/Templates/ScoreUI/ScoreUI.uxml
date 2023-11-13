@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/score-UI.uss?fileID=7433441132597879392&amp;guid=8a3137bbc510ce54c9b5356c6e955a42&amp;type=3#score-UI[UNSUPPORTED_IN_UI_BUILDER]" />
+    <ui:Label text="1200" display-tooltip-when-elided="true" name="Score" picking-mode="Ignore" class="score-text" style="background-color: rgb(255, 255, 255); width: 206px; align-items: flex-start; flex-direction: row; right: 16px; position: absolute; top: 64px; -unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LILITAONE%20-%20REGULAR%20SDF%20-%203.asset?fileID=11400000&amp;guid=157a9aea04ae71d41a9a8c0c0e6c6470&amp;type=2#LILITAONE - REGULAR SDF - 3&apos;);" />
+</ui:UXML>

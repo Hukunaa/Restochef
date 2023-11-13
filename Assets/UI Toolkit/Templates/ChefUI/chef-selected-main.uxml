@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="ChiefPanel" src="project://database/Assets/UI%20Toolkit/Templates/ChefUI/ChefPanel.uxml?fileID=9197481963319205126&amp;guid=ca2dbee90e1b2d14795bba723807b05f&amp;type=3#ChefPanel" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/chef-UI.uss?fileID=7433441132597879392&amp;guid=4c90c4411e936fb4f8e5786a82102ed5&amp;type=3#chef-UI" />
+    <ui:VisualElement name="chef-selected-main" style="height: 100%; align-items: center; justify-content: flex-end; display: flex;">
+        <ui:VisualElement style="width: 100%; height: auto;">
+            <ui:VisualElement name="IngredientList" style="flex-direction: row; align-items: center; justify-content: center; margin-bottom: 64px; flex-wrap: wrap-reverse; display: none;">
+                <ui:Button display-tooltip-when-elided="true" class="ingredient-button" style="background-image: url(&apos;project://database/Assets/Textures/IngredientSprites/fish.png?fileID=2800000&amp;guid=055711c439748b54b91c4bb7ea68d983&amp;type=3#fish&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Textures/IngredientSprites/farfalle.png?fileID=2800000&amp;guid=1040a26bdff359f4cbc85048577926fd&amp;type=3#farfalle&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Textures/IngredientSprites/onion.png?fileID=2800000&amp;guid=8d78a4bf5b4d4da46928c9af96cff228&amp;type=3#onion&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" />
+                <ui:Button display-tooltip-when-elided="true" />
+                <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Textures/IngredientSprites/cabbage.png?fileID=2800000&amp;guid=059ac5ef6b9e6b14a8761bf8c9634cf5&amp;type=3#cabbage&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Textures/IngredientSprites/carrot.png?fileID=2800000&amp;guid=bd89ece1cc2a792488162b19bb8091c3&amp;type=3#carrot&apos;);" />
+                <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Textures/IngredientSprites/chicken-breast.png?fileID=2800000&amp;guid=1d5b3dee2e96b2a4cb88217ba3d16683&amp;type=3#chicken-breast&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="StationList" style="width: 100%; height: 191px; flex-direction: row; flex-wrap: wrap-reverse; align-items: center; justify-content: space-around;">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Textures/IngredientStatesSprite/boiled.png?fileID=2800000&amp;guid=37359dd9da520c34ca57b4e7f9784980&amp;type=3#boiled&apos;); width: 128px; height: 128px; margin-left: 16px; margin-right: 16px; margin-top: 16px; margin-bottom: 16px;" />
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Textures/IngredientStatesSprite/knife.png?fileID=2800000&amp;guid=1a7b7646212847142939a3a5be24c103&amp;type=3#knife&apos;); width: 128px; height: 128px; margin-left: 16px; margin-right: 16px; margin-top: 16px; margin-bottom: 16px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Instance template="ChiefPanel" name="ChiefPanel" />
+        <ui:Button text="Close" display-tooltip-when-elided="true" style="width: 90%; height: 108px; font-size: 45px; margin-left: 0; margin-right: 0; margin-top: 32px; margin-bottom: 32px; padding-left: 16px; padding-right: 16px; padding-top: 16px; padding-bottom: 16px;" />
+    </ui:VisualElement>
+</ui:UXML>

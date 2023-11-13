@@ -1,0 +1,25 @@
+.score-text {
+    -unity-text-align: upper-right;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/TextMesh%20Pro/Fonts/LILITAONE%20-%20REGULAR%20SDF.asset?fileID=11400000&guid=1aa0a1ca1677d1042a67af71d0e875bc&type=2#LILITAONE - REGULAR SDF');
+    -unity-text-outline-color: rgba(0, 0, 0, 255);
+    -unity-text-outline-width: 4px;
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-top-left-radius: 53px;
+    border-bottom-left-radius: 53px;
+    border-top-right-radius: 53px;
+    border-bottom-right-radius: 53px;
+    border-left-color: rgba(137, 71, 129, 255);
+    border-right-color: rgba(137, 71, 129, 255);
+    border-top-color: rgba(137, 71, 129, 255);
+    border-bottom-color: rgba(137, 71, 129, 255);
+    padding-right: 15px;
+}
+
+.hidden {
+    display: none;
+}

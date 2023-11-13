@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: 3DIngredients
+  m_EditorClassIdentifier: 
+  m_GroupName: 3DIngredients
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9f8363d473066c64aa3bdd005f54dc1c
+  m_SerializeEntries:
+  - m_GUID: f6de6c1f425ba1041b5839bdf8a9aace
+    m_Address: Lettuce.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d8b2cb3ed5e81044a45e1cb63761858
+    m_Address: StirFriedSteak.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5725a61f6ecbb5f4783cd4d47344396a
+    m_Address: Onion.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 464106222888e8a4d9bf35c5d0c99dfb
+    m_Address: Potato.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b61e2f6b2eeed4347ac156c760a2c08a
+    m_Address: RawSteak.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6624548e579b79468eb3803fa4308b0
+    m_Address: RawTomato.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f25663fec30d8ab458dc2d473c16ac21
+    m_Address: OnionSlice.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80fe79487392be344bde9b94a45bf7cc
+    m_Address: PotatoSlice.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 55a82a13f58e5dd4b9fda11c297593ab
+    m_Address: SaladSlice.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be1f8b7a407c8af4498ab36262a6cc2c
+    m_Address: TomatoSlice.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9580671deacc28f4c8405e8bc1f37a54, type: 2}
+  m_SchemaSet:
+    m_Schemas: []

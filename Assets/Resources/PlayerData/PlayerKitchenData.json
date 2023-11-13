@@ -1,0 +1,24 @@
+{
+    "kitchenLayoutName": "KitchenLayout_1",
+    "kitchenSizeX": 7,
+    "kitchenSizeY": 7,
+    "minRecipeSlots": 4,
+    "maxRecipeSlots": 4,
+    "minChefSlots": 2,
+    "maxChefSlots": 2,
+    "maxStationSlots": 3,
+    "maxStationLevel": 3,
+    "kitchenStars": 0,
+    "kitchenRank": 1,
+    "bonusPoints": 0,
+    "brigade": [
+        "0b77c6de-2692-467c-b4a4-49eb4c112744",
+        "608e1d55-c13e-4435-8aef-63fffd3ed2e5"
+    ],
+    "menu": [
+        "r_steakFrites",
+        "r_beefSoup",
+        "r_croqueMonsieur",
+        "r_duckSalad"
+    ]
+}

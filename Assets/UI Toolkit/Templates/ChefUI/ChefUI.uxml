@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/chef-UI.uss?fileID=7433441132597879392&amp;guid=4c90c4411e936fb4f8e5786a82102ed5&amp;type=3#chef-UI" />
+    <ui:VisualElement picking-mode="Ignore" style="position: relative; bottom: auto; align-items: center; width: 100%; height: 100%; flex-direction: column-reverse;">
+        <ui:ScrollView mode="Horizontal" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" name="chef-selection-tab" class="portrait-container" style="height: auto;" />
+        <ui:VisualElement name="chef-action-selection-tab" class="chef-action-selection-tab" style="bottom: 0; position: relative;">
+            <ui:VisualElement name="ActionsContainer" style="width: 100%; height: auto; white-space: nowrap;">
+                <ui:VisualElement name="IngredientsContainer" class="ingredient-container" style="margin-left: 45px; margin-right: 45px; margin-top: 45px; margin-bottom: 45px;" />
+                <ui:VisualElement name="StationActionTab" style="align-items: center;">
+                    <ui:VisualElement name="StationsContainer" class="station-container" style="margin-bottom: 0;" />
+                    <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="close-button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="SelectedChefPortrait" class="chef-portrait hidden" />
+            <ui:Button text="Close" display-tooltip-when-elided="true" name="CloseButton" class="close-button hidden" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

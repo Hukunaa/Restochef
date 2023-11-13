@@ -1,0 +1,143 @@
+.order-container-in-progress {
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+    padding: 8px;
+    flex-shrink: 0;
+    background-color: rgb(192, 192, 192);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    transition-property: all, background-color;
+    transition-duration: 0s, 1s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
+
+.order-container {
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    overflow: visible;
+    margin-top: 74px;
+    justify-content: flex-start;
+    flex-grow: 0;
+    white-space: normal;
+}
+
+.recipe-image {
+    width: 128px;
+    height: 128px;
+}
+
+.ingredient-sprite {
+    background-image: none;
+    width: 64px;
+    height: 64px;
+    transition-property: all, scale;
+    transition-duration: 0s, 0.25s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
+
+.unity-progress-bar__progress {
+    background-color: green;
+}
+
+.feedback-text {
+    font-size: 52px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    width: 80%;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    -unity-font-style: bold;
+    align-items: center;
+    -unity-font-definition: url('project://database/Assets/TextMesh%20Pro/Fonts/LILITAONE%20-%20REGULAR%20SDF%20-%203.asset?fileID=11400000&guid=157a9aea04ae71d41a9a8c0c0e6c6470&type=2#LILITAONE - REGULAR SDF - 3');
+    color: rgba(255, 255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 255);
+}
+
+.hidden {
+    display: none;
+}
+
+.unity-progress-bar {
+    width: 100%;
+    height: 32px;
+}
+
+.unity-progress-bar__background {
+    height: 100%;
+    max-height: 128px;
+}
+
+.unity-progress-bar__container {
+    height: 100%;
+    max-height: 128px;
+}
+
+.unity-progress-bar__title {
+    font-size: 24px;
+}
+
+.order-container-order-complete {
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+    padding: 8px;
+    flex-shrink: 0;
+    background-color: rgb(14, 159, 23);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.order-container-order-failed {
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+    padding: 8px;
+    flex-shrink: 0;
+    background-color: rgb(159, 14, 15);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}

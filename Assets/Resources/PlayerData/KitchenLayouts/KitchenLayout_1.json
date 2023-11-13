@@ -1,0 +1,788 @@
+{
+    "Tiles": [
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 0,
+            "_posY": 0,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 0,
+            "_posY": 1,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 1,
+            "_tileData": "locked_slot",
+            "_posX": 0,
+            "_posY": 2,
+            "_entrypoint": 0,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 1,
+            "_tileData": "boiling_station",
+            "_posX": 0,
+            "_posY": 3,
+            "_entrypoint": 0,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 1,
+                    "_maxLevel": 10,
+                    "_costToUpgrade": 500,
+                    "_accidentChance": 15,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 1,
+            "_tileData": "locked_slot",
+            "_posX": 0,
+            "_posY": 4,
+            "_entrypoint": 0,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 0,
+            "_posY": 5,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 0,
+            "_posY": 6,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 1,
+            "_posY": 0,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 1,
+            "_posY": 1,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 1,
+            "_posY": 2,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 1,
+            "_posY": 3,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 1,
+            "_posY": 4,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 1,
+            "_posY": 5,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 1,
+            "_posY": 6,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 2,
+            "_posY": 0,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 2,
+            "_posY": 1,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 2,
+            "_posY": 2,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 2,
+            "_posY": 3,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 2,
+            "_posY": 4,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 2,
+            "_posY": 5,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 4,
+            "_tileData": "starches_storage",
+            "_posX": 2,
+            "_posY": 6,
+            "_entrypoint": 3,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 1,
+            "_tileData": "cutting_station",
+            "_posX": 3,
+            "_posY": 0,
+            "_entrypoint": 1,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 1,
+                    "_maxLevel": 10,
+                    "_costToUpgrade": 500,
+                    "_accidentChance": 15,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 3,
+            "_posY": 1,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 3,
+            "_posY": 2,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 3,
+            "_posY": 3,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 3,
+            "_posY": 4,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 3,
+            "_posY": 5,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 4,
+            "_tileData": "cold_storage",
+            "_posX": 3,
+            "_posY": 6,
+            "_entrypoint": 3,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 4,
+            "_posY": 0,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 4,
+            "_posY": 1,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 4,
+            "_posY": 2,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 4,
+            "_posY": 3,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 4,
+            "_posY": 4,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 4,
+            "_posY": 5,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 4,
+            "_tileData": "vegetables_storage",
+            "_posX": 4,
+            "_posY": 6,
+            "_entrypoint": 3,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 5,
+            "_posY": 0,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 5,
+            "_posY": 1,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 5,
+            "_posY": 2,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 5,
+            "_posY": 3,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 3,
+            "_tileData": "entry_point",
+            "_posX": 5,
+            "_posY": 4,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 0,
+            "_tileData": "walkable_area",
+            "_posX": 5,
+            "_posY": 5,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 5,
+            "_posY": 6,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 6,
+            "_posY": 0,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 6,
+            "_posY": 1,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 1,
+            "_tileData": "locked_slot",
+            "_posX": 6,
+            "_posY": 2,
+            "_entrypoint": 2,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 1,
+            "_tileData": "stove_station",
+            "_posX": 6,
+            "_posY": 3,
+            "_entrypoint": 2,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 1,
+                    "_maxLevel": 10,
+                    "_costToUpgrade": 500,
+                    "_accidentChance": 15,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 1,
+            "_tileData": "locked_slot",
+            "_posX": 6,
+            "_posY": 4,
+            "_entrypoint": 2,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 6,
+            "_posY": 5,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        },
+        {
+            "_tileType": 2,
+            "_tileData": "table_station",
+            "_posX": 6,
+            "_posY": 6,
+            "_entrypoint": 4,
+            "_upgradableData": {
+                "_data": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0,
+                    "_accidentChance": 0,
+                    "_processTimeBonus": 0
+                }
+            }
+        }
+    ]
+}

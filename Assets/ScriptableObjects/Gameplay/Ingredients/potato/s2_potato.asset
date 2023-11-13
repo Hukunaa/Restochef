@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ead27efed24c1bb1bcc928cfb2dea8, type: 3}
+  m_Name: s2_potato
+  m_EditorClassIdentifier: 
+  _ingredientName: Potato
+  _ingredientIcon: {fileID: 21300000, guid: 74d879e99d23149fd89ac16b27c9067a, type: 3}
+  _ingredient3DSettings:
+    _ingredientMesh: {fileID: 6663492031686546719, guid: 80fe79487392be344bde9b94a45bf7cc,
+      type: 3}
+    _ingredientSocket: 0
+  _ingredientType: 1
+  _ingredientMix: {fileID: 11400000, guid: 1b8c8d582ab2f4fc297cade6b0176d64, type: 2}

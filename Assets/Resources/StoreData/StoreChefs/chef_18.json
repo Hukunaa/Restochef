@@ -1,0 +1,27 @@
+{
+	"ChefID": "d6cb72ba-243a-49b7-b8ba-8f37cce63fe1",
+	"ChefInfoAddress": "chef_18",
+	"ChefRarity": 2,
+	"LevelData": {
+		"_level": 1,
+		"_currentXP": 0,
+		"_currentLevelXPGoal": 1000
+	},
+	"Skills": [
+		{
+			"_type": 0,
+			"_name": "Dexterity",
+			"_level": 5
+		},
+		{
+			"_type": 1,
+			"_name": "Detail",
+			"_level": 6
+		},
+		{
+			"_type": 2,
+			"_name": "Intuition",
+			"_level": 2
+		}
+	]
+}

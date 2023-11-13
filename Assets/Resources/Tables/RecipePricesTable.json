@@ -1,0 +1,24 @@
+{
+  "prices" : [
+    {
+      "rarity" : 0,
+      "price": 5000
+    },
+    {
+      "rarity" : 1,
+      "price": 10000
+    },
+    {
+      "rarity" : 2,
+      "price": 20000
+    },
+    {
+      "rarity" : 3,
+      "price": 35000
+    },
+    {
+      "rarity" : 4,
+      "price": 60000
+    }
+  ]
+}

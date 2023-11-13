@@ -1,0 +1,227 @@
+.custom-button-big {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    -unity-text-align: middle-center;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.fullscreen-container {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    padding-top: 211px;
+}
+
+.bottom-button {
+    position: absolute;
+    bottom: 64px;
+    left: 64px;
+    right: 64px;
+    font-size: 82px;
+}
+
+.arrow-left {
+    background-image: url('project://database/Assets/Textures/UI/arrow.png?fileID=2800000&guid=94d0c8597c3a4454e9e0a340b47bec63&type=3#arrow');
+    width: 128px;
+    height: 128px;
+    rotate: 180deg;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.custom-button {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    -unity-text-align: middle-center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.arrow-right {
+    background-image: url('project://database/Assets/Textures/UI/arrow.png?fileID=2800000&guid=94d0c8597c3a4454e9e0a340b47bec63&type=3#arrow');
+    width: 128px;
+    height: 128px;
+    rotate: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.left-button {
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 59px;
+}
+
+.green-button {
+    font-size: 92px;
+    background-image: url('project://database/Assets/Textures/UI/Shape/Buttons/GreenButton.png?fileID=2800000&guid=1c1d0f329274cae48808cb086c65ec09&type=3#GreenButton');
+    width: 80%;
+    height: 164px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    color: rgb(245, 245, 245);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: rgb(51, 51, 51);
+    text-shadow: 0 2px 2px rgb(72, 72, 72);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/TextMesh%20Pro/Fonts/LILITAONE%20-%20REGULAR%20SDF%20-%203.asset?fileID=11400000&guid=157a9aea04ae71d41a9a8c0c0e6c6470&type=2#LILITAONE - REGULAR SDF - 3');
+}
+
+.red-button-small {
+    font-size: 53px;
+    background-image: url('project://database/Assets/Textures/UI/Shape/Buttons/RedButton.png?fileID=2800000&guid=66d28a46fd61faa4f9d87fc2d32a3c6f&type=3#RedButton');
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(245, 245, 245);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: rgb(51, 51, 51);
+    text-shadow: 0 2px 2px rgb(72, 72, 72);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.selection-label {
+    font-size: 79px;
+    -unity-text-align: upper-center;
+    margin-bottom: 32px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.green-button-small {
+    font-size: 53px;
+    background-image: url('project://database/Assets/Textures/UI/Shape/Buttons/GreenButton.png?fileID=2800000&guid=1c1d0f329274cae48808cb086c65ec09&type=3#GreenButton');
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(245, 245, 245);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: rgb(51, 51, 51);
+    text-shadow: 0 2px 2px rgb(72, 72, 72);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.red-button {
+    font-size: 92px;
+    background-image: url('project://database/Assets/Textures/UI/Shape/Buttons/RedButton.png?fileID=2800000&guid=66d28a46fd61faa4f9d87fc2d32a3c6f&type=3#RedButton');
+    width: 80%;
+    height: 164px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    color: rgb(245, 245, 245);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: rgb(51, 51, 51);
+    text-shadow: 0 2px 2px rgb(72, 72, 72);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-center;
+    -unity-font-definition: url('project://database/Assets/TextMesh%20Pro/Fonts/LILITAONE%20-%20REGULAR%20SDF%20-%203.asset?fileID=11400000&guid=157a9aea04ae71d41a9a8c0c0e6c6470&type=2#LILITAONE - REGULAR SDF - 3');
+}

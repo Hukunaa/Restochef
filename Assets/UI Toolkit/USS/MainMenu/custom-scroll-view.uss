@@ -1,0 +1,80 @@
+.unity-scroll-view__content-container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+}
+
+.unity-scroller__low-button {
+    display: none;
+}
+
+.unity-scroller__high-button {
+    display: none;
+}
+
+.unity-scroll-view__vertical-scroller {
+    display: flex;
+    right: 14px;
+    height: auto;
+    bottom: 8px;
+    top: 8px;
+    position: absolute;
+}
+
+.unity-base-slider__dragger {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    background-color: rgb(113, 113, 113);
+}
+
+.unity-base-slider__tracker {
+    display: flex;
+    background-color: rgb(87, 87, 87);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.custom-scroll-view-container {
+    height: auto;
+    width: 90%;
+    background-color: rgb(125, 125, 125);
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 33px;
+    border-bottom-left-radius: 33px;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    max-width: none;
+    min-width: auto;
+}

@@ -1,0 +1,9 @@
+.ingredient-sprite {
+    background-image: none;
+    width: 64px;
+    height: 64px;
+}
+
+.ingredient-container {
+    align-items: center;
+}

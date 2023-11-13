@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button display-tooltip-when-elided="true" name="StationActionButton" class="station-button">
+        <ui:VisualElement name="StationActionIcon" class="station-action-icon" />
+        <ui:VisualElement name="Arrow" class="transformation-arrow" />
+        <ui:VisualElement name="IngredientOutputIcon" class="ingredient-output-icon" />
+    </ui:Button>
+</ui:UXML>

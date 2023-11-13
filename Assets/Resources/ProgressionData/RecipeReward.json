@@ -1,0 +1,13 @@
+{
+    "recipes": [
+      "r_cassoulet",
+      "r_tartiflette",
+      "r_chickenStew",
+      "r_quicheLorraine",
+      "r_beefBourguignon",
+      "r_bouillabaisse",
+      "r_duckConfit",
+      "r_coqAuVin",
+      "r_cheeseSouffle"
+    ]
+}

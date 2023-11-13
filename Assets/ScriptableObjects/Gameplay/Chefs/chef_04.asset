@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7728ba01fda446694a91a65b9d1f2ea, type: 3}
+  m_Name: chef_04
+  m_EditorClassIdentifier: 
+  _chefHeadPortrait: {fileID: 21300000, guid: a01a0085d810f49eca39d78cd420af87, type: 3}
+  _chefBodyPortrait: {fileID: 21300000, guid: a618c593ed241443ab39498a8e82b7af, type: 3}
+  _chefName: Lucky
+  _customizationSettings:
+    _mesh:
+      m_AssetGUID: d75d9cff319598646bfdbc4fe61f76e6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _bodyMaterial:
+      m_AssetGUID: 87d6f75e3e833f14ca3113127844ae4b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _headMaterial:
+      m_AssetGUID: d9d7b45c26592614abefd6207a12f4c7
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _earColor: {r: 0.28235295, g: 0.36078432, b: 0.4509804, a: 1}
+    _robePrimaryColor: {r: 0.09411765, g: 0.13333334, b: 0.18039216, a: 1}
+    _robeSecondaryColor: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}
+    _eyeBallColor: {r: 1, g: 1, b: 1, a: 1}
+    _noseColor: {r: 0.7917096, g: 0.7893378, b: 0.9245283, a: 1}
+    _eyeBrowColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+    _irisColor: {r: 0.6502509, g: 0, b: 1, a: 1}

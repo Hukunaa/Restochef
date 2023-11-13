@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/stat.uss?fileID=7433441132597879392&amp;guid=192a014456ff9f94791c431c66f0c19c&amp;type=3#stat" />
+    <ui:VisualElement name="StatContainer" class="stat-container">
+        <ui:Label text="Dexterity" display-tooltip-when-elided="true" name="StatName" class="stat-label" />
+        <ui:Label text="8" display-tooltip-when-elided="true" name="StatValue" class="stat-value" />
+    </ui:VisualElement>
+</ui:UXML>

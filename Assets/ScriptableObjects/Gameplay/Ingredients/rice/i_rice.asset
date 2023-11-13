@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a389d5f22d9436699289295d300e153, type: 3}
+  m_Name: i_rice
+  m_EditorClassIdentifier: 
+  _ingredientName: Rice
+  _ingredientIcon: {fileID: 21300000, guid: a18bb89bbb6f94645a25c1f1eed75545, type: 3}
+  _ingredient3DSettings:
+    _ingredientMesh: {fileID: -595732956325804618, guid: fd344f413db4d0b4dbf93af59edbbdfa,
+      type: 3}
+    _ingredientSocket: 0
+  _ingredientType: 0
+  _storageType: {fileID: 11400000, guid: d8d8832ebacca4aee9bf972536cb3f85, type: 2}

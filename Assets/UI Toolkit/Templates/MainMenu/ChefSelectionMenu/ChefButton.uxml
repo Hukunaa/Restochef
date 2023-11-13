@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Stat" src="project://database/Assets/UI%20Toolkit/Templates/MainMenu/ChefSelectionMenu/Stat.uxml?fileID=9197481963319205126&amp;guid=b4d56b911d0dd0b489b2dfb7ab32962a&amp;type=3#Stat" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/chef-button.uss?fileID=7433441132597879392&amp;guid=0aa7665c16be39a4fa7aa7c4581746be&amp;type=3#chef-button" />
+    <ui:Button text="&#10;" display-tooltip-when-elided="true" name="ChefButton" class="chef-button">
+        <ui:VisualElement name="ChefInfoContainer" style="flex-direction: row; align-items: center; justify-content: space-between; margin-top: 0; margin-bottom: 0;">
+            <ui:Label text="Joel" display-tooltip-when-elided="true" name="ChefName" class="chef-name" style="font-size: 20px;" />
+            <ui:Label text="Level 8" display-tooltip-when-elided="true" name="ChefLevel" class="chef-level" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ChefPortrait" class="chef-portrait" />
+        <ui:VisualElement name="StatsContainer" class="stats-container">
+            <ui:Instance template="Stat" name="Stat" />
+            <ui:Instance template="Stat" name="Stat" />
+            <ui:Instance template="Stat" name="Stat" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ead27efed24c1bb1bcc928cfb2dea8, type: 3}
+  m_Name: s2_onion
+  m_EditorClassIdentifier: 
+  _ingredientName: Onion
+  _ingredientIcon: {fileID: 21300000, guid: 7105e06d5c4f645b78cbe0d2a107506f, type: 3}
+  _ingredient3DSettings:
+    _ingredientMesh: {fileID: -9054208880318480159, guid: f25663fec30d8ab458dc2d473c16ac21,
+      type: 3}
+    _ingredientSocket: 0
+  _ingredientType: 1
+  _ingredientMix: {fileID: 11400000, guid: c2fb764f82af241d2a1812d8fa8ffd96, type: 2}

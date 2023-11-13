@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61d08e72ca6864489d82452be621f55, type: 3}
+  m_Name: StarPath04_00
+  m_EditorClassIdentifier: 
+  _rewardType: 1
+  _title: Rank 4
+  _description: 
+  _rewardSprite: {fileID: 21300000, guid: ccd19bdf00821bf4e98da59c16d1fddc, type: 3}
+  _coinsReward: 0
+  _starsRequired: 1000
+  _rankReward:
+    MaxStations: 4
+    MaxStationsLVL: 6
+    MaxChefs: 2
+    MenuSize: 5
+    BonusPoints: 30

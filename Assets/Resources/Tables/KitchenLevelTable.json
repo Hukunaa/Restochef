@@ -1,0 +1,94 @@
+{
+    "Table": [
+        {
+            "_level": 1,
+            "_xpRequired": 0,
+            "_maxChefs": 2,
+            "_maxStationSlots": 3,
+            "_maxStationLevel": 3,
+            "_menuSize": 4,
+            "_bonusPoints": 0
+        },
+        {
+            "_level": 2,
+            "_xpRequired": 1000,
+            "_maxChefs": 2,
+            "_maxStationSlots": 4,
+            "_maxStationLevel": 4,
+            "_menuSize": 4,
+            "_bonusPoints": 10
+        },
+        {
+            "_level": 3,
+            "_xpRequired": 2000,
+            "_maxChefs": 2,
+            "_maxStationSlots": 4,
+            "_maxStationLevel": 5,
+            "_menuSize": 5,
+            "_bonusPoints": 20
+        },
+        {
+            "_level": 4,
+            "_xpRequired": 3000,
+            "_maxChefs": 3,
+            "_maxStationSlots": 4,
+            "_maxStationLevel": 6,
+            "_menuSize": 5,
+            "_bonusPoints": 30
+        },
+        {
+            "_level": 5,
+            "_xpRequired": 4000,
+            "_maxChefs": 3,
+            "_maxStationSlots": 4,
+            "_maxStationLevel": 6,
+            "_menuSize": 5,
+            "_bonusPoints": 40
+        },
+        {
+            "_level": 6,
+            "_xpRequired": 5000,
+            "_maxChefs": 3,
+            "_maxStationSlots": 6,
+            "_maxStationLevel": 8,
+            "_menuSize": 6,
+            "_bonusPoints": 50
+        },
+        {
+            "_level": 7,
+            "_xpRequired": 6000,
+            "_maxChefs": 4,
+            "_maxStationSlots": 6,
+            "_maxStationLevel": 9,
+            "_menuSize": 6,
+            "_bonusPoints": 60
+        },
+        {
+            "_level": 8,
+            "_xpRequired": 7000,
+            "_maxChefs": 4,
+            "_maxStationSlots": 7,
+            "_maxStationLevel": 10,
+            "_menuSize": 6,
+            "_bonusPoints": 70
+        },
+        {
+            "_level": 9,
+            "_xpRequired": 8000,
+            "_maxChefs": 4,
+            "_maxStationSlots": 7,
+            "_maxStationLevel": 11,
+            "_menuSize": 7,
+            "_bonusPoints": 80
+        },
+        {
+            "_level": 10,
+            "_xpRequired": 9000,
+            "_maxChefs": 4,
+            "_maxStationSlots": 7,
+            "_maxStationLevel": 12,
+            "_menuSize": 7,
+            "_bonusPoints": 100
+        }
+    ]
+}

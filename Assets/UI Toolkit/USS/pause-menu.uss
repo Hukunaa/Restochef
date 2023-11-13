@@ -1,0 +1,50 @@
+.pause-action-button {
+    align-items: center;
+    justify-content: center;
+    font-size: 83px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Fonts/LILITAONE%20-%20REGULAR.TTF?fileID=12800000&guid=8440ca309817e59438aef54971a4ffa8&type=3#LILITAONE - REGULAR');
+}
+
+.hidden {
+    display: none;
+}
+
+.pause-menu-opened {
+    height: 100%;
+    align-items: stretch;
+    justify-content: center;
+    background-color: rgba(26, 26, 26, 0.88);
+}
+
+.pause-menu-closed {
+    height: 100%;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.main-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.pause-button {
+    background-image: url('project://database/Assets/Textures/UI/pause-button.png?fileID=2800000&guid=54fcbbdf6084a484d84b45e826de262a&type=3#pause-button');
+    align-items: flex-start;
+    width: 64px;
+    height: 64px;
+    background-color: rgba(88, 88, 88, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+}

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/screen-fader.uss?fileID=7433441132597879392&amp;guid=c5f2300690bdc7b47b1bb97d97cb2a94&amp;type=3#screen-fader" />
+    <ui:VisualElement name="ScreenFader" picking-mode="Ignore" class="screen-fader hidden" />
+</ui:UXML>

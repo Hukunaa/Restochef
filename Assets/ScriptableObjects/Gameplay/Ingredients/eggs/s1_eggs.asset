@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ead27efed24c1bb1bcc928cfb2dea8, type: 3}
+  m_Name: s1_eggs
+  m_EditorClassIdentifier: 
+  _ingredientName: Eggs
+  _ingredientIcon: {fileID: 21300000, guid: caa39944af1444a4f8ecde7054fb0355, type: 3}
+  _ingredient3DSettings:
+    _ingredientMesh: {fileID: 9171202629835078880, guid: e3c6a3c0f3bb797409dabf65bdd79297,
+      type: 3}
+    _ingredientSocket: 0
+  _ingredientType: 1
+  _ingredientMix: {fileID: 11400000, guid: 0a206282c27444c888fb7fd9b6570b7e, type: 2}

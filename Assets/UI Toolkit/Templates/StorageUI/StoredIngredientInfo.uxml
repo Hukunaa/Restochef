@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/storage-UI.uss?fileID=7433441132597879392&amp;guid=d6eee5761db350e48b6f4f1311d2d766&amp;type=3#storage-UI" />
+    <ui:VisualElement name="IngredientInfoContainer" class="ingredient">
+        <ui:VisualElement name="IngredientSprite" class="ingredient-icon" />
+        <ui:Label text="10" display-tooltip-when-elided="true" name="IngredientQuantity" class="ingredient-quantity" />
+    </ui:VisualElement>
+</ui:UXML>

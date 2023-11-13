@@ -1,0 +1,54 @@
+{
+    "SlotsStatStable": [
+        {
+            "accident_bonus": 15,
+            "processing_time_bonus": 0,
+            "cost": 0
+        },
+        {
+            "accident_bonus": 14,
+            "processing_time_bonus": 2,
+            "cost": 1000
+        },
+        {
+            "accident_bonus": 13,
+            "processing_time_bonus": 4,
+            "cost": 5000
+        },
+        {
+            "accident_bonus": 12,
+            "processing_time_bonus": 6,
+            "cost": 10000
+        },
+        {
+            "accident_bonus": 11,
+            "processing_time_bonus": 8,
+            "cost": 20000
+        },
+        {
+            "accident_bonus": 10,
+            "processing_time_bonus": 11,
+            "cost": 35000
+        },
+        {
+            "accident_bonus": 8,
+            "processing_time_bonus": 14,
+            "cost": 50000
+        },
+        {
+            "accident_bonus": 6,
+            "processing_time_bonus": 17,
+            "cost": 75000
+        },
+        {
+            "accident_bonus": 4,
+            "processing_time_bonus": 20,
+            "cost": 100000
+        },
+        {
+            "accident_bonus": 1,
+            "processing_time_bonus": 24,
+            "cost": 140000
+        }
+    ]
+}

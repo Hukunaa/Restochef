@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/chef-UI.uss?fileID=7433441132597879392&amp;guid=4c90c4411e936fb4f8e5786a82102ed5&amp;type=3#chef-UI" />
+    <ui:VisualElement name="ChefPannelContainer" class="chef-pannel-container">
+        <ui:Button display-tooltip-when-elided="true" name="ChefPortrait" class="chef-portrait" style="height: 170px; width: 170px; background-image: url(&apos;project://database/Assets/Textures/ChefPortrait/JerryHeadPortrait.png?fileID=2800000&amp;guid=3fdd2af459c8d4b4eab962aabbf8ea33&amp;type=3#JerryHeadPortrait&apos;);" />
+        <ui:VisualElement name="InstructionContainer" class="instruction-container" style="justify-content: space-around; width: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/order-UI-USS.uss?fileID=7433441132597879392&amp;guid=b9027ab542c09b64aa1dde6cb47397f5&amp;type=3#order-UI-USS" />
+    <ui:Button display-tooltip-when-elided="true" name="OrderButton" class="order-container-in-progress">
+        <UI_Toolkit.VisualElements.RecipeImage style="background-image: none; width: auto;" />
+        <ui:VisualElement name="IngredientContainer" style="flex-direction: row; justify-content: center;" />
+        <ui:ProgressBar low-value="50.9" title="12 s" style="transition-property: all; transition-duration: 0s; transition-timing-function: ease; transition-delay: 0s;" />
+    </ui:Button>
+</ui:UXML>

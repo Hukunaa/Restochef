@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="RecipeButton" src="project://database/Assets/UI%20Toolkit/Templates/MainMenu/RecipeSelectionMenu/RecipeButton.uxml?fileID=9197481963319205126&amp;guid=478db85557d70344d9d5cc29dd191983&amp;type=3#RecipeButton" />
+    <ui:Template name="SlotContainer" src="project://database/Assets/UI%20Toolkit/Templates/MainMenu/Slots/SlotContainer.uxml?fileID=9197481963319205126&amp;guid=de92456ff54203148a7b01c094f7d67e&amp;type=3#SlotContainer" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/general-ui-elements.uss?fileID=7433441132597879392&amp;guid=2fe81150cf9086c409ed231ff0ac486a&amp;type=3#general-ui-elements" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/custom-scroll-view.uss?fileID=7433441132597879392&amp;guid=cffd2a0499bdd9c42b912e830121298a&amp;type=3#custom-scroll-view" />
+    <ui:VisualElement name="Container" class="fullscreen-container" style="align-items: center; margin-top: 32px; padding-bottom: 55px;">
+        <ui:Label text="Select your recipes" display-tooltip-when-elided="true" class="selection-label" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" horizontal-page-size="-0.88" horizontal-scroller-visibility="Hidden" mode="Vertical" class="custom-scroll-view-container">
+            <ui:Instance template="RecipeButton" name="RecipeButton" />
+            <ui:Instance template="RecipeButton" name="RecipeButton" />
+            <ui:Instance template="RecipeButton" name="RecipeButton" />
+        </ui:ScrollView>
+        <ui:Instance template="SlotContainer" name="SlotContainer" style="flex-shrink: 0; flex-grow: 1; width: 100%; flex-direction: column-reverse;" />
+        <ui:VisualElement name="BackButtonContainer" style="align-items: center; width: 100%; flex-direction: row; justify-content: space-around;">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="red-button-small" />
+            <ui:Button text="Select Recipes" display-tooltip-when-elided="true" name="SelectRecipesButton" class="green-button-small" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

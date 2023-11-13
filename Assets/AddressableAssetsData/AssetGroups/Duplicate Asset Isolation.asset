@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation
+  m_EditorClassIdentifier: 
+  m_GroupName: Duplicate Asset Isolation
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1c872c30fd9ec1a4f8a702d17da2500f
+  m_SerializeEntries:
+  - m_GUID: 6f2ab7e7690029a439deb7e768dcea1a
+    m_Address: Assets/TextMesh Pro/Fonts/LILITAONE - REGULAR LINE SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1aa0a1ca1677d1042a67af71d0e875bc
+    m_Address: Assets/TextMesh Pro/Fonts/LILITAONE - REGULAR SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36f7308f75ae7dc4e9cdd612d89ba7cc
+    m_Address: Assets/Textures/UI/Stations/OvenStation.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29bde6326b4c34ad8a12da475f79b50a
+    m_Address: Assets/Audio/CasualGameSounds/DM-CGS-32.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 52320e590bf774734a288886eba557ba
+    m_Address: Assets/Audio/CasualGameSounds/DM-CGS-45.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c1d0f329274cae48808cb086c65ec09
+    m_Address: Assets/Textures/UI/Shape/Buttons/GreenButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 66d28a46fd61faa4f9d87fc2d32a3c6f
+    m_Address: Assets/Textures/UI/Shape/Buttons/RedButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ff1efd07fb30b7f429b6dc116152bace
+    m_Address: Assets/Textures/UI/Shape/Shape 1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8378a319a66362944ac64e6439da8822
+    m_Address: Assets/Textures/UI/Shape/PopUpSquare 1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 266c61da211b048e3b0f5a2997ad4e6c
+    m_Address: Assets/Textures/ChefPortrait/Chef1_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6ad120bd2064cb48b83cc5420caced3
+    m_Address: Assets/Art/UI/Shape/gradient_vertical 1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9b25cccc80136b4ea277f5dc4f6ce4e
+    m_Address: Assets/Art/UI/Shape/Header2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53ed276ea3a7b3147b4ef09b41c81223
+    m_Address: Assets/Textures/UI/Shape/PopUpSquare.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d62bfade4870557498037773635339fd
+    m_Address: Assets/Textures/UI/Shape/PopUpSquare.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 056e53cf0e241429ab2d9a7766060cef
+    m_Address: Assets/Textures/UI/Shape/Buttons/BlueButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8440ca309817e59438aef54971a4ffa8
+    m_Address: Assets/TextMesh Pro/Fonts/LILITAONE - REGULAR.TTF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f36147407486a534381fb73814f62e93
+    m_Address: Assets/Models/meshes/stations/WoodBox/WoodBox_WoodBox_MetallicSmoothness.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84a5d5d3cbdfe8648bc6711a52220d15
+    m_Address: Assets/TextMesh Pro/Fonts/DREAMLAND STD REGULAR.OTF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 933532a4fcc9baf4fa0491de14d08ed7
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 68e6db2ebdc24f95958faec2be5558d6
+    m_Address: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36e335017ad71d54fbb10842863188ae
+    m_Address: Packages/com.unity.render-pipelines.core/Runtime/FallbackShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6e9a19c3678ded42a3bc431ebef7dbd
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe393ace9b354375a9cb14cdbbc28be4
+    m_Address: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f47410f368bf40f4b4be4929906c9c9
+    m_Address: Assets/TextMesh Pro/Fonts/LilitaOne - Regular 1.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c5ccf81af45b4af293404f0a679f7c1
+    m_Address: Assets/Textures/ChefPortrait/Chef3_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b5ac2ae1a3d984df3bbf0d8bf45d88d9
+    m_Address: Assets/Textures/RecipesSprites/french/r_chickenStew_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cfbfe3935dc0a4a4095495064ec3e267
+    m_Address: Assets/Textures/ChefPortrait/Chef13_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d6358054afe8d486cbe4c356609c2dcd
+    m_Address: Assets/Textures/RecipesSprites/french/r_beefFondue_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 264a09b401783134cb865b0a0d276ed4
+    m_Address: Assets/Textures/UI/Shape/Transparent 1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74b79bb410f681a43bf63fe72be591af
+    m_Address: Assets/Art/UI/Shape/Gem.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb543a5563b48814c9da3800ed42da7b
+    m_Address: Assets/Art/UI/Shape/Close Button1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0df03b5a6d1aad47bb7544a345edbd3
+    m_Address: Assets/Textures/UI/Shape/SlowCooker.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b56457c5480a5394f80d5e8a8d5e1a4e
+    m_Address: Assets/Textures/UI/Shape/Pan2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 42f943f8fb39498499f2332b67dc2a4b
+    m_Address: Assets/Textures/UI/Currencies/XPIcon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ea1946394be170d4dbd6f5407a5d01bb
+    m_Address: Assets/Textures/UI/Shape/Knife.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b80344f9862b344b08ad50a28fa886ad
+    m_Address: Assets/Textures/ChefPortrait/Chef2_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 54300caaea3c3104ca4d8885c3f003c1
+    m_Address: Assets/Art/UI/Shape/GoldCoin.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93a3651bea26d154691de8d1d3bbf743
+    m_Address: Assets/Art/UI/Shape/SquareRound.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5bc9d83cc6ad7544fa4044f6119b943e
+    m_Address: Assets/Textures/UI/Shape/Shape 2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a640b9c5a0a747429251a5a2b642798
+    m_Address: Assets/Art/UI/Shape/CoinBagIcon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8e462bdc3a8f88459ddee422ea0a1eb
+    m_Address: Assets/Textures/UI/Icon_Star.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45dd53afb3d0067449508ee50c73a04f
+    m_Address: Assets/Textures/UI/fx_rotate_line.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccd19bdf00821bf4e98da59c16d1fddc
+    m_Address: Assets/Textures/UI/KitchenViews/kitchen-overview.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a6b675743228364f863e02a150368af
+    m_Address: Assets/Art/FX/IngredientPoofFx/Material/glow1_ADD.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3845b91b0068bc149b8d2479bbd43366
+    m_Address: Assets/Art/FX/IngredientPoofFx/Material/cloud_2x2_default_AB.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b6a4eeefb2f152b4fb9b76939370fdbd
+    m_Address: Assets/Art/FX/IngredientPoofFx/Material/star_AB.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0994c12e202f342459a4212e7287f7e8
+    m_Address: Assets/Audio/CasualGameSounds/DM-CGS-40.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9234cd7623275a64e91f38ad3652e2da
+    m_Address: Assets/Art/UI/Shape/PaperSquare.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 411e0cf60396c4ef48ad764fc222f47a
+    m_Address: Assets/Art/UI/Shape/Check.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a6dc8f4d8257348b3977e1f9e6a4ecba
+    m_Address: Assets/Art/UI/Shape/Alert.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0af6db45f13a62428a92c2e10c4dff5
+    m_Address: Assets/Art/FX/IngredientPoofFx/Material/glow1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94f62be6a5b01c24e8ce294a99948b9d
+    m_Address: Assets/Art/FX/IngredientPoofFx/Material/cloud_2x2_hardshadow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: edd7abf643fa4bc4e8561d4c280c97cf
+    m_Address: Assets/PlugIn/JMO Assets/Toony Colors Pro/Shaders/Hybrid 2/TCP2 Hybrid
+      Shader 2.tcp2shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 089f5aa743e1f7a43a911e1ba3bd3be1
+    m_Address: Assets/Art/FX/IngredientPoofFx/Material/star.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0406db5a14f94604a8c57ccfbc9f3b46
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2497e33f13cf334fb9fd9e74d68e5f8
+    m_Address: Assets/TextMesh Pro/Fonts/DREAMLAND STD REGULAR SDF 1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ffb159a21c8a04135a5616979c828fab
+    m_Address: Assets/Audio/CasualGameSounds/DM-CGS-21.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3becec1909f194046945d85ac1077772
+    m_Address: Assets/Audio/CasualGameSounds/DM-CGS-39.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c5292ba5cf254919a6b9e2b18e04f49
+    m_Address: Assets/Audio/CasualGameSounds/DM-CGS-07.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c39bee3018f86484086f693e34ad3444
+    m_Address: Assets/Textures/UI/Shape/StationCircle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e56f42b1db33f4efa932971f57dcc3be
+    m_Address: Assets/Textures/IngredientSprites/i_coldMeats_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 964bed23455394a1f97bda8a9277f911
+    m_Address: Assets/Art/UI/Shape/IngredientHex.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 73e4f8831404440f1bbc80fb6f4292b1
+    m_Address: Assets/Textures/ChefPortrait/Chef15_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7d72dbca30f92664d88c0b9f7eae8d4c
+    m_Address: Assets/Textures/IngredientSprites/Raw/Vegetables/tomato.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eef6d614496a643d395210ae03cc7f38
+    m_Address: Assets/Textures/RecipesSprites/french/r_duckConfit_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6dddbe20fc0d1aa41922e30b2e0b44d4
+    m_Address: Assets/Textures/IngredientSprites/Raw/Vegetables/Salad.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ce29d5820e1f894b96060cb021c13a9
+    m_Address: Assets/Textures/UI/Shape/WheelIcon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 445f997feef97e445aef464a7fb72678
+    m_Address: Assets/Art/UI/Shape/Badge - Yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8ad3d7743c1b4476ebc0d465cbc13adc
+    m_Address: Assets/Textures/RecipesSprites/french/r_beefBourguignon_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c47b85e2fd0a48f9804c250db3f1d0c
+    m_Address: Assets/Textures/RecipesSprites/french/r_bouillabaisse_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2ccce2b2192c4feba91488212c15516
+    m_Address: Assets/Textures/RecipesSprites/french/r_cassoulet_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01d8ccc54513b495880399a3b65e4d87
+    m_Address: Assets/Textures/RecipesSprites/french/r_cheeseSouffle_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee5a2273f480d4abeaea0e06ea28dd35
+    m_Address: Assets/Textures/RecipesSprites/french/r_coqAuVin_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da6f6fa2c38ce4cdb9555c354e184ab6
+    m_Address: Assets/Textures/RecipesSprites/french/r_quicheLorraine_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5ffc13282f60479193afd8013e2275f
+    m_Address: Assets/Textures/RecipesSprites/french/r_tartiflette_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9e0f3a193b2a7490f945b75494706322
+    m_Address: Assets/Textures/ChefPortrait/Chef7_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce1484fc387494c09a2caf6acfd64c30
+    m_Address: Assets/Textures/ChefPortrait/Chef9_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 400d6541292f2486b954c0fe2efc8f1a
+    m_Address: Assets/Textures/ChefPortrait/Chef10_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d6dd50a57e184402ad8d327775d6768
+    m_Address: Assets/Textures/ChefPortrait/Chef11_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 365926dc1b5354b5bbe21238bf259b53
+    m_Address: Assets/Textures/ChefPortrait/Chef14_Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9580671deacc28f4c8405e8bc1f37a54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6df406f40e00fc04999c57298d17563a, type: 2}
+    - {fileID: 11400000, guid: abb17e38c1d9e3f43b1a28b3b418a6f0, type: 2}

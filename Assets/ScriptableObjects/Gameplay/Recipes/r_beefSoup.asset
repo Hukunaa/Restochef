@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3333bb0966064f09921f8706d04afc6a, type: 3}
+  m_Name: r_beefSoup
+  m_EditorClassIdentifier: 
+  _recipeName: Beef Soup
+  _recipeRarity: 0
+  _recipeIcon: {fileID: 21300000, guid: df2e562f611d24e0ea4ca75f03a30bc0, type: 3}
+  _recipeTimer: 50
+  _recipeIngredients:
+  - _ingredient: {fileID: 11400000, guid: 0671defd35752478b87a30c15eed410c, type: 2}
+    _quantity: 1
+  - _ingredient: {fileID: 11400000, guid: 371b7c20581e64ee199b865fe0956044, type: 2}
+    _quantity: 1
+  - _ingredient: {fileID: 11400000, guid: 40006f60f9355454185e8316e4e0767c, type: 2}
+    _quantity: 1
+  _orderApparitionWeight: 5
+  _recipePoints: 100

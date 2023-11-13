@@ -1,0 +1,6 @@
+.menu-action-label {
+    font-size: 69px;
+    color: rgba(0, 0, 0, 255);
+    margin-top: 16px;
+    margin-bottom: 32px;
+}

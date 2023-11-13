@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/UI/StationCard.prefab.meta
+guid: e127068c8eb84424fad895c1b6f806df
+========
+guid: 09fb538c95b93f94fbc062cad2340236
+>>>>>>>> loic_UIRework:Assets/Prefabs/UI/MainMenu_UIToolkit.prefab.meta
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

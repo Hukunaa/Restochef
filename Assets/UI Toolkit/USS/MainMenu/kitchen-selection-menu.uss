@@ -1,0 +1,35 @@
+.kitchen-attribute-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.attribute-value {
+    font-size: 40px;
+    margin-left: 32px;
+    color: rgba(0, 0, 0, 255);
+}
+
+.kitchen-view {
+    background-image: url('project://database/Assets/Textures/UI/KitchenViews/kitchen-overview.png?fileID=2800000&guid=ccd19bdf00821bf4e98da59c16d1fddc&type=3#kitchen-overview');
+    align-items: stretch;
+    width: 512px;
+    flex-grow: 1;
+    height: 512px;
+    flex-shrink: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-left-color: rgba(0, 0, 0, 255);
+    border-right-color: rgba(0, 0, 0, 255);
+    border-top-color: rgba(0, 0, 0, 255);
+    border-bottom-color: rgba(0, 0, 0, 255);
+    border-top-left-radius: 54px;
+    border-bottom-left-radius: 54px;
+    border-top-right-radius: 54px;
+    border-bottom-right-radius: 54px;
+}

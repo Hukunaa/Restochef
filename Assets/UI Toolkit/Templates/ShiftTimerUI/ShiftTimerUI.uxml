@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/shift-timer.uss?fileID=7433441132597879392&amp;guid=dc9f99bc1aa80ab4e9292a72980ad9df&amp;type=3#shift-timer" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/general-ui-elements.uss?fileID=7433441132597879392&amp;guid=2fe81150cf9086c409ed231ff0ac486a&amp;type=3#general-ui-elements" />
+    <ui:Label text="05:00" display-tooltip-when-elided="true" name="Timer" class="timer-text" style="top: 64px; -unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LILITAONE%20-%20REGULAR%20SDF%20-%203.asset?fileID=11400000&amp;guid=157a9aea04ae71d41a9a8c0c0e6c6470&amp;type=2#LILITAONE - REGULAR SDF - 3&apos;);" />
+    <ui:VisualElement name="MainContainer" picking-mode="Ignore" style="width: 100%; height: 100%; align-items: center; justify-content: flex-end;">
+        <ui:Button text="Start Shift" display-tooltip-when-elided="true" name="StartShiftButton" class="green-button" />
+    </ui:VisualElement>
+</ui:UXML>

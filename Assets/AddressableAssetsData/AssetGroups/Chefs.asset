@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Chefs
+  m_EditorClassIdentifier: 
+  m_GroupName: Chefs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2ba08582a23236f42a0985fbe6ae7b94
+  m_SerializeEntries:
+  - m_GUID: a2ed21df93cc44445814e0e852de917c
+    m_Address: Assets/Models/meshes/Character/CatVariation/CuteV1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d75d9cff319598646bfdbc4fe61f76e6
+    m_Address: Assets/Models/meshes/Character/CatVariation/CuteV2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 372a5cdb482ec3c4489b7975ab1d9051
+    m_Address: Assets/Models/meshes/Character/CatVariation/CuteV3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 87d6f75e3e833f14ca3113127844ae4b
+    m_Address: Assets/Models/meshes/Character/ChefBody.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c422401002df1ab4daff70c009b82588
+    m_Address: Assets/Models/meshes/Character/CatVariation/GrumpyV1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e52929acbcb2bd4595d544f812cb012
+    m_Address: Assets/Models/meshes/Character/CatVariation/GrumpyV2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8d1da752a12ef1143aab2fbaa0475b3e
+    m_Address: Assets/Models/meshes/Character/CatVariation/SmirkV3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccb1f556c6d937c438081d9a161b5766
+    m_Address: Assets/Models/meshes/Character/CatVariation/SmirkV2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9086a8ffbfa594e4fa24691c2d55a163
+    m_Address: Assets/Models/meshes/Character/CatVariation/SmirkV1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b5776b489149bf4898a2d9f65f4c285
+    m_Address: Assets/Models/meshes/Character/CatVariation/GrumpyV3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43e1f4f19e7df284590bc9efee6b2ae9
+    m_Address: Assets/Models/meshes/Character/EyeMaterial/BlueBallEye.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f59885bf2174584d93e0897616a3f2a
+    m_Address: Assets/Models/meshes/Character/MonkeyVariation/Monkey.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f33f886f50a798b4bb1d31f900d7884a
+    m_Address: Assets/Models/meshes/Character/Monkey/MonkeyBody.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2459cb75df9164458f8d3ff46fda30d
+    m_Address: Assets/Models/meshes/Character/EyeMaterial/BrownEye.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f8804fc8e1bfda4aae2b8c5449119ec
+    m_Address: Assets/Models/meshes/Character/EyeMaterial/GreenEye1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d9d7b45c26592614abefd6207a12f4c7
+    m_Address: Assets/Models/meshes/Character/EyeMaterial/BlueEye.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9580671deacc28f4c8405e8bc1f37a54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 277d7f5e4ca88ab48bf4b7a0179993f4, type: 2}

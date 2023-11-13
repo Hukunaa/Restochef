@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MainMenu/kitchen-selection-menu.uss?fileID=7433441132597879392&amp;guid=a9f1e18ce0b23764fa2eaed334c3429c&amp;type=3#kitchen-selection-menu" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/general-ui-elements.uss?fileID=7433441132597879392&amp;guid=2fe81150cf9086c409ed231ff0ac486a&amp;type=3#general-ui-elements" />
+    <Style src="project://database/Assets/UI%20Toolkit/USS/custom-button.uss?fileID=7433441132597879392&amp;guid=f7d11deb7fb24d91882949d20516ea02&amp;type=3#custom-button" />
+    <ui:VisualElement name="Container" class="fullscreen-container" style="width: 100%; height: 100%; justify-content: center; align-items: stretch;">
+        <ui:Button text="Select kitchen" display-tooltip-when-elided="true" name="SelectKitchenButton" class="bottom-button custom-button" />
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="top-left-button custom-button" />
+        <ui:VisualElement name="KitchenContainer" style="flex-direction: column; height: auto;">
+            <ui:VisualElement name="KitchenAttributesContainer" style="align-items: center; margin-top: 32px; margin-bottom: 32px;">
+                <ui:VisualElement name="ChefsCapacity" class="kitchen-attribute-container">
+                    <ui:VisualElement name="ChefIcon" style="background-image: url(&apos;project://database/Assets/Textures/UI/chef.png?fileID=2800000&amp;guid=ec3b3361ee9960d46b695bb5adb8532f&amp;type=3#chef&apos;); -unity-background-scale-mode: stretch-to-fill; width: 64px; height: 64px;" />
+                    <ui:Label text="1 - 3" display-tooltip-when-elided="true" name="ChefCapacityValue" class="attribute-value" />
+                </ui:VisualElement>
+                <ui:VisualElement name="RecipeCapacity" class="kitchen-attribute-container" style="flex-direction: row; align-items: center;">
+                    <ui:VisualElement name="RecipeIcon" style="background-image: url(&apos;project://database/Assets/Textures/UI/recipe-book.png?fileID=2800000&amp;guid=e79321690de4040449f7ad7b7e6adeb0&amp;type=3#recipe-book&apos;); width: 64px; height: 64px;" />
+                    <ui:Label text="3 - 6" display-tooltip-when-elided="true" name="RecipeCapacityValue" class="attribute-value" style="font-size: 40px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="KitchenSelectionWindow" style="flex-direction: row; height: 512px; align-items: center;">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="LeftArrow" class="arrow-left" style="flex-shrink: 1;" />
+                <ui:VisualElement name="KitchenView" class="kitchen-view" />
+                <ui:Button display-tooltip-when-elided="true" name="RightArrow" class="arrow-right" style="flex-shrink: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

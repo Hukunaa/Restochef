@@ -1,0 +1,88 @@
+{
+    "Inventory": [
+        {
+            "_itemName": "cutting_station",
+            "_itemType": 1,
+            "_id": 1111,
+            "_itemData": {
+                "_upgradableData": {
+                    "_level": 1,
+                    "_maxLevel": 10,
+                    "_costToUpgrade": 500
+                }
+            }
+        },
+        {
+            "_itemName": "stove_station",
+            "_itemType": 1,
+            "_id": 2222,
+            "_itemData": {
+                "_upgradableData": {
+                    "_level": 1,
+                    "_maxLevel": 10,
+                    "_costToUpgrade": 500
+                }
+            }
+        },
+        {
+            "_itemName": "boiling_station",
+            "_itemType": 1,
+            "_id": 5555,
+            "_itemData": {
+                "_upgradableData": {
+                    "_level": 1,
+                    "_maxLevel": 10,
+                    "_costToUpgrade": 500
+                }
+            }
+        },
+        {
+            "_itemName": "cold_storage",
+            "_itemType": 0,
+            "_id": 3333,
+            "_itemData": {
+                "_upgradableData": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0
+                }
+            }
+        },
+        {
+            "_itemName": "vegetables_storage",
+            "_itemType": 0,
+            "_id": 4444,
+            "_itemData": {
+                "_upgradableData": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0
+                }
+            }
+        },
+        {
+            "_itemName": "starches_storage",
+            "_itemType": 0,
+            "_id": 6666,
+            "_itemData": {
+                "_upgradableData": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0
+                }
+            }
+        },
+        {
+            "_itemName": "table_station",
+            "_itemType": 2,
+            "_id": -1,
+            "_itemData": {
+                "_upgradableData": {
+                    "_level": 0,
+                    "_maxLevel": 0,
+                    "_costToUpgrade": 0
+                }
+            }
+        }
+    ]
+}

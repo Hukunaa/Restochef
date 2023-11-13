@@ -1,0 +1,20 @@
+.stat-container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stat-label {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.stat-value {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}

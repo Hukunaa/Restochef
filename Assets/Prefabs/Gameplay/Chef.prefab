@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &729693621921998527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 102374252916194309}
+  - component: {fileID: 495692459354547995}
+  - component: {fileID: 2371167916025947206}
+  - component: {fileID: 3898948553226437785}
+  - component: {fileID: 2947695813136740016}
+  - component: {fileID: 5586268938373602076}
+  - component: {fileID: 7426993879222103336}
+  - component: {fileID: 4276347473939563240}
+  - component: {fileID: 6654400034049076738}
+  - component: {fileID: 5202930521418825191}
+  - component: {fileID: 501856329976540404}
+  m_Layer: 8
+  m_Name: Chef
+  m_TagString: Chef
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &102374252916194309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &495692459354547995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720ed62594804e5cb32cf39d8cb1d1f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nav: {fileID: 2947695813136740016}
+  _stateMachine: {fileID: 7426993879222103336}
+  _chefAnimator: {fileID: 0}
+  _chefCustomizationManager: {fileID: 5586268938373602076}
+  _knifeSocket: {fileID: 0}
+  _panSocket: {fileID: 0}
+  _ingredientSocketsParent: {fileID: 0}
+  _onShiftRushStart: {fileID: 11400000, guid: 9dff00a37b15ce64e92dcacc76338f29, type: 2}
+  _onShiftEnd: {fileID: 11400000, guid: 7ef75fbbaf5b6db439bb75d3a87e8de1, type: 2}
+  _onSelectChef: {fileID: 11400000, guid: 57b9b9c20aaa557428cd9cebb5f646da, type: 2}
+  _instructions: []
+  _logDebugMessage: 0
+--- !u!136 &2371167916025947206
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.4
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!195 &3898948553226437785
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.35
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 0
+  m_AngularSpeed: 240
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &2947695813136740016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1516a197948854e9539153076ccc66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultMovementSpeed: 3.5
+  _lerpSpeed: 10
+  _occupiedStationStopDistance: 2
+  _logDebugMessage: 0
+--- !u!114 &5586268938373602076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62528a90aa94e21b63e6ed6b6ad9350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chefSettings: {fileID: 0}
+--- !u!114 &7426993879222103336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b65a347568754947a9ab018c96cd55e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chef: {fileID: 495692459354547995}
+  _showStateChangesDebugMessage: 0
+  waitForInstructionState: {fileID: 4276347473939563240}
+  takeStorageIngredientState: {fileID: 6654400034049076738}
+  processIngredientState: {fileID: 5202930521418825191}
+  returnToWaitingPositionState: {fileID: 501856329976540404}
+  currentState: {fileID: 0}
+--- !u!114 &4276347473939563240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab515a2c9c9746c1b899d04ed250f285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chef: {fileID: 495692459354547995}
+  _stateName: Wait for instruction
+  _showDebugMessage: 0
+--- !u!114 &6654400034049076738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8ed2b802e5443ead9530ab396e717e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chef: {fileID: 495692459354547995}
+  _stateName: Take storage ingredient
+  _showDebugMessage: 0
+--- !u!114 &5202930521418825191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ffa5c6486f4f2383a3b6383f14589b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chef: {fileID: 495692459354547995}
+  _stateName: Process ingredient at station
+  _showDebugMessage: 0
+--- !u!114 &501856329976540404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729693621921998527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79c17cf2af1e413d87b1f5830c815027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _chef: {fileID: 495692459354547995}
+  _stateName: Return to waiting position
+  _showDebugMessage: 0

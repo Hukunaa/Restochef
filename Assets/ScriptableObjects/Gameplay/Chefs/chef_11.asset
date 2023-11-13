@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7728ba01fda446694a91a65b9d1f2ea, type: 3}
+  m_Name: chef_11
+  m_EditorClassIdentifier: 
+  _chefHeadPortrait: {fileID: 21300000, guid: 3d6dd50a57e184402ad8d327775d6768, type: 3}
+  _chefBodyPortrait: {fileID: 21300000, guid: 35863f94d2199405888799fd39363f61, type: 3}
+  _chefName: Pumpkin
+  _customizationSettings:
+    _mesh:
+      m_AssetGUID: d75d9cff319598646bfdbc4fe61f76e6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _bodyMaterial:
+      m_AssetGUID: 87d6f75e3e833f14ca3113127844ae4b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _headMaterial:
+      m_AssetGUID: e2459cb75df9164458f8d3ff46fda30d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _earColor: {r: 0.5176471, g: 0.23137255, b: 0, a: 1}
+    _robePrimaryColor: {r: 0.9254902, g: 0.4627451, b: 0.06666667, a: 1}
+    _robeSecondaryColor: {r: 0.34117648, g: 0.11372549, b: 0.019607844, a: 1}
+    _eyeBallColor: {r: 1, g: 1, b: 1, a: 1}
+    _noseColor: {r: 1, g: 0.8156863, b: 0.8666667, a: 1}
+    _eyeBrowColor: {r: 0.34117648, g: 0.1137255, b: 0.019607844, a: 1}
+    _irisColor: {r: 0.6509434, g: 0.31039643, b: 0, a: 1}
